@@ -1,5 +1,5 @@
 function initSwiper(id) {
-    var s1 = new Swiper("#" + id, {
+    const config = {
         autoplay: {
             //自动轮播
             delay: 2000, //间隔时间
@@ -19,9 +19,12 @@ function initSwiper(id) {
                 return '<span class="' + className + '">' + "</span>"; //生成焦点数字
             }
         },
-        mousewheel: true, //滚动滑轮可以切图
-        // effect: 'cube' //选用:效果
-    });
+        mousewheel: true
+    }
+    if (id == 'horizontal-swiper-container') {
+        delete config.pagination
+    }
+    var s1 = new Swiper("#" + id, config);
     var oBox = document.getElementById(id);
 
     oBox.onmouseover = function () {
