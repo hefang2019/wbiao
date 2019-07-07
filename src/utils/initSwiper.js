@@ -38,3 +38,5 @@ function initSwiper(id) {
 export {
     initSwiper
 }
+
+console.log('git commit')
