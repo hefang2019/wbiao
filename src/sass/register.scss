@@ -1,0 +1,261 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #f2eeee3b;
+
+    .w_main {
+        width: 990px;
+        height: 100%;
+        margin: auto;
+
+        .logo {
+
+            box-sizing: border-box;
+            height: 155px;
+            padding-top: 50px;
+
+            .logoImg {
+                display: block;
+                width: 121px;
+                height: 75px;
+                float: left;
+
+                img {
+                    width: 121px;
+                    height: 75px;
+                }
+            }
+
+            .w_idea {
+                display: block;
+                width: 175px;
+                height: 75px;
+                float: left;
+
+                img {
+                    width: 175px;
+                    height: 75px;
+
+                }
+            }
+        }
+
+        .vip_reg {
+            width: 988px;
+            height: 600px;
+            border: 1px solid #9e9e9e3b;
+            background: #f7f7f7;
+
+            h3 {
+                text-align: center;
+                font-size: 28px;
+                margin-top: 50px;
+            }
+
+            .reg_info {
+                width: 340px;
+                margin: auto;
+                margin-top: 45px;
+
+
+                i {
+                    display: block;
+                }
+
+                .user_tel {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                    position: relative;
+
+                    i {
+                        width: 12px;
+                        height: 16px;
+                        background: url(../img/reg_img/ia_10002.png);
+                        position: absolute;
+                        top: 12px;
+                        left: 11px;
+                        background-size: 589px;
+                        background-position: -576px -25px;
+                    }
+
+                    input {
+                        width: 338px;
+                        height: 38px;
+                        border: 1px solid #e8e8e8;
+                        box-sizing: border-box;
+                        padding-left: 35px;
+                    }
+                }
+
+                .ran_code {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                    position: relative;
+
+                    i {
+                        width: 13px;
+                        height: 16px;
+                        background: url(../img/reg_img/ia_10002.png);
+                        background-size: 589px;
+                        background-position: -576px 0;
+                        position: absolute;
+                        top: 12px;
+                        left: 11px;
+                    }
+
+                    input {
+                        width: 228px;
+                        border: 1px solid #e8e8e8;
+                        height: 38px;
+                        box-sizing: border-box;
+                        padding-left: 35px;
+                    }
+
+                    a {
+                        display: block;
+                        width: 98px;
+                        height: 38px;
+                        border: 1px solid #e8e8e8;
+                        float: right;
+                    }
+                }
+
+                .note_code {
+                    font-size: 12px;
+                    overflow: hidden;
+                    margin-bottom: 10px;
+                    position: relative;
+
+                    i {
+                        width: 13px;
+                        height: 16px;
+                        background: url(../img/reg_img/ia_10002.png);
+                        background-size: 589px;
+                        background-position: -576px 0;
+                        position: absolute;
+                        top: 12px;
+                        left: 11px;
+                    }
+
+                    #note {
+                        width: 228px;
+                        height: 38px;
+                        border: 1px solid #e8e8e8;
+                        box-sizing: border-box;
+                        padding-left: 35px;
+                        float: left;
+                    }
+
+                    #noteBtn {
+                        width: 98px;
+                        height: 38px;
+                        border: 1px solid #e8e8e8;
+                        float: right;
+                        cursor: pointer;
+                    }
+                }
+
+                .pwd {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                    position: relative;
+
+                    i {
+                        width: 13px;
+                        height: 16px;
+                        background: url(../img/reg_img/ia_10002.png);
+                        background-size: 589px;
+                        background-position: -576px -51px;
+                        position: absolute;
+                        top: 12px;
+                        left: 11px;
+                    }
+
+                    input {
+                        width: 338px;
+                        height: 38px;
+                        border: 1px solid #e8e8e8;
+                        box-sizing: border-box;
+                        padding-left: 35px;
+                    }
+
+                    em {
+                        width: 16px;
+                        height: 16px;
+                        background: url(../img/reg_img/d.png);
+                        background-size: 220px;
+                        background-position: -142px -94px;
+                        position: absolute;
+                        top: 50%;
+                        right: 11px;
+                        transform: translateY(-50%);
+                    }
+                }
+
+                .pwd2 {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                    position: relative;
+
+                    i {
+                        width: 13px;
+                        height: 16px;
+                        background: url(../img/reg_img/ia_10002.png);
+                        background-size: 589px;
+                        background-position: -576px -51px;
+                        position: absolute;
+                        top: 12px;
+                        left: 11px;
+                    }
+
+                    input {
+                        width: 338px;
+                        height: 38px;
+                        border: 1px solid #e8e8e8;
+                        box-sizing: border-box;
+                        padding-left: 35px;
+                    }
+
+                    em {
+                        width: 16px;
+                        height: 16px;
+                        background: url(../img/reg_img/d.png);
+                        background-size: 220px;
+                        background-position: -142px -94px;
+                        position: absolute;
+                        top: 12px;
+                        right: 11px;
+                    }
+                }
+
+                .referrer {
+                    font-size: 12px;
+                    margin-bottom: 28px;
+
+                    input {
+                        width: 338px;
+                        height: 38px;
+                        border: 1px solid #e8e8e8;
+                        box-sizing: border-box;
+                        padding-left: 10px;
+                    }
+                }
+
+                #regBtn {
+                    width: 340px;
+                    height: 40px;
+                    background: #b32424;
+                    color: white;
+                    font-size: 14px;
+                    margin-bottom: 28px;
+                }
+
+                .condition {
+                    font-size: 12px;
+                    color: #999;
+                }
+            }
+        }
+    }
+}

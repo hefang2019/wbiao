@@ -1,0 +1,275 @@
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+header {
+  width: 100%;
+  height: 125px; }
+  header #logo {
+    width: 1078px;
+    height: 100%;
+    margin: auto;
+    line-height: 125px; }
+    header #logo img {
+      widows: 121px;
+      height: 75px;
+      cursor: pointer; }
+
+main {
+  width: 100%;
+  height: 580px;
+  position: relative; }
+  main .login_bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/reg_img/logo_bg.jpg) no-repeat;
+    background-position: top center;
+    background-color: #263140;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    main .login_bg :hover {
+      cursor: pointer; }
+  main .content_login {
+    width: 1078px;
+    margin: auto;
+    position: relative; }
+    main .content_login .login_info {
+      width: 380px;
+      height: 460px;
+      background: #fff;
+      position: absolute;
+      top: 50px;
+      right: 0; }
+      main .content_login .login_info .loginTab {
+        width: 269px;
+        margin: auto;
+        overflow: hidden;
+        margin-bottom: 10px;
+        padding: 40px 0 20px; }
+        main .content_login .login_info .loginTab span {
+          width: 134px;
+          height: 26px;
+          float: left;
+          text-align: center;
+          line-height: 26px;
+          font-size: 20px;
+          color: #888;
+          cursor: pointer; }
+        main .content_login .login_info .loginTab em {
+          width: 1px;
+          height: 24px;
+          background: #ccc;
+          font-size: 0;
+          float: left; }
+      main .content_login .login_info .user_login {
+        width: 300px;
+        height: 265px;
+        margin: auto; }
+        main .content_login .login_info .user_login #userTel {
+          width: 298px;
+          height: 42px;
+          border: 1px solid #ddd;
+          box-sizing: border-box;
+          padding-left: 10px; }
+        main .content_login .login_info .user_login .ranCode {
+          overflow: hidden;
+          margin-top: 20px; }
+          main .content_login .login_info .user_login .ranCode #inCode {
+            width: 200px;
+            height: 42px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+            padding-left: 10px;
+            float: left; }
+          main .content_login .login_info .user_login .ranCode .graph_code {
+            display: block;
+            width: 88px;
+            height: 42px;
+            background: #bbb;
+            border: 1px solid #ddd;
+            float: left;
+            margin-left: 10px; }
+        main .content_login .login_info .user_login .message {
+          margin-top: 20px;
+          overflow: hidden; }
+          main .content_login .login_info .user_login .message #message_code {
+            width: 200px;
+            height: 42px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+            padding-left: 10px;
+            float: left; }
+          main .content_login .login_info .user_login .message a {
+            display: block;
+            width: 88px;
+            height: 42px;
+            border: 1px solid #ddd;
+            float: left;
+            margin-left: 10px;
+            text-align: center;
+            line-height: 42px;
+            background: #ccc;
+            color: white;
+            font-size: 14px; }
+        main .content_login .login_info .user_login .clickLogin {
+          margin: 12px 0; }
+          main .content_login .login_info .user_login .clickLogin #loginBtn {
+            width: 300px;
+            height: 44px;
+            background: #cc5252;
+            font-size: 18px;
+            color: white; }
+        main .content_login .login_info .user_login .btnReg {
+          color: #888;
+          font-size: 14px; }
+        main .content_login .login_info .user_login .pos {
+          position: absolute;
+          bottom: 25px;
+          right: 40px; }
+          main .content_login .login_info .user_login .pos .accounts_in {
+            color: #888;
+            font-size: 18px;
+            margin-right: 5px; }
+          main .content_login .login_info .user_login .pos em {
+            color: #66666669; }
+          main .content_login .login_info .user_login .pos .social_in {
+            color: #888;
+            font-size: 18px;
+            margin-left: 5px; }
+      main .content_login .login_info .two_code {
+        width: 300px;
+        height: 320px;
+        margin: auto;
+        position: absolute;
+        bottom: 10px;
+        left: 38px;
+        display: none; }
+        main .content_login .login_info .two_code .img_code {
+          width: 183px;
+          height: 183px;
+          margin: auto; }
+          main .content_login .login_info .two_code .img_code img {
+            width: 183px;
+            height: 183px; }
+        main .content_login .login_info .two_code p {
+          text-align: center;
+          margin: 20px 0; }
+          main .content_login .login_info .two_code p span {
+            color: red; }
+          main .content_login .login_info .two_code p i {
+            color: #888; }
+        main .content_login .login_info .two_code a {
+          display: block;
+          width: 162px;
+          height: 42px;
+          border: 1px solid #888;
+          border-radius: 21px;
+          text-align: center;
+          line-height: 42px;
+          color: #888;
+          margin: auto; }
+      main .content_login .login_info .download {
+        width: 300px;
+        height: 320px;
+        margin: auto;
+        display: none; }
+        main .content_login .login_info .download .img_down {
+          width: 270px;
+          height: 270px;
+          border: 1px solid #ddd;
+          border-radius: 20px;
+          margin: auto;
+          box-sizing: border-box;
+          padding: 20px;
+          position: relative; }
+          main .content_login .login_info .download .img_down::before {
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 10px solid #fff;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            position: absolute;
+            left: 50%;
+            bottom: -9px;
+            margin-left: -5px;
+            z-index: 10; }
+          main .content_login .login_info .download .img_down::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 10px solid #ddd;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            margin-left: -5px; }
+          main .content_login .login_info .download .img_down img {
+            width: 230px;
+            height: 230px; }
+        main .content_login .login_info .download a {
+          display: block;
+          width: 162px;
+          height: 40px;
+          border: 1px solid #888;
+          border-radius: 20px;
+          line-height: 40px;
+          text-align: center;
+          margin: 15px auto; }
+      main .content_login .login_info .pwd_login {
+        width: 300px;
+        height: 220px;
+        margin: auto;
+        display: none; }
+        main .content_login .login_info .pwd_login #user {
+          width: 300px;
+          height: 44px;
+          border: 1px solid #ddd;
+          box-sizing: border-box;
+          padding-left: 10px;
+          margin: 10px 0 10px; }
+        main .content_login .login_info .pwd_login #pwd {
+          width: 300px;
+          height: 44px;
+          border: 1px solid #ddd;
+          box-sizing: border-box;
+          padding-left: 10px;
+          margin: 10px 0 15px; }
+        main .content_login .login_info .pwd_login #loginBtn2 {
+          width: 300px;
+          height: 44px;
+          background: #cc5252;
+          color: white; }
+        main .content_login .login_info .pwd_login .reg_pwd {
+          margin-top: 16px;
+          display: flex;
+          justify-content: space-between; }
+          main .content_login .login_info .pwd_login .reg_pwd .btnReg2 {
+            font-size: 12px;
+            color: #999; }
+          main .content_login .login_info .pwd_login .reg_pwd .for_pwd {
+            font-size: 14px;
+            color: #999; }
+        main .content_login .login_info .pwd_login .dynamic {
+          position: absolute;
+          bottom: 25px;
+          right: 40px; }
+          main .content_login .login_info .pwd_login .dynamic a {
+            color: #999; }
+          main .content_login .login_info .pwd_login .dynamic em {
+            color: #999;
+            margin: 0 5px; }
+
+footer {
+  padding-top: 50px; }
+  footer p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+    text-align: center; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,48 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #f2eeee;
+}
+html .w_main,
+body .w_main {
+  width: 990px;
+  height: 100%;
+  margin: auto;
+}
+html .w_main .logo,
+body .w_main .logo {
+  box-sizing: border-box;
+  height: 155px;
+  padding-top: 50px;
+}
+html .w_main .logo .logoImg,
+body .w_main .logo .logoImg {
+  display: block;
+  width: 121px;
+  height: 75px;
+  float: left;
+}
+html .w_main .logo .logoImg img,
+body .w_main .logo .logoImg img {
+  width: 121px;
+  height: 75px;
+}
+html .w_main .logo .w_idea,
+body .w_main .logo .w_idea {
+  display: block;
+  width: 175px;
+  height: 75px;
+  float: left;
+}
+html .w_main .logo .w_idea img,
+body .w_main .logo .w_idea img {
+  width: 175px;
+  height: 75px;
+}
+html .w_main .vip_reg,
+body .w_main .vip_reg {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #e9e5e5;
+}

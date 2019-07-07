@@ -1,0 +1,226 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #f2eeee3b; }
+  html .w_main,
+  body .w_main {
+    width: 990px;
+    height: 100%;
+    margin: auto; }
+    html .w_main .logo,
+    body .w_main .logo {
+      box-sizing: border-box;
+      height: 155px;
+      padding-top: 50px; }
+      html .w_main .logo .logoImg,
+      body .w_main .logo .logoImg {
+        display: block;
+        width: 121px;
+        height: 75px;
+        float: left; }
+        html .w_main .logo .logoImg img,
+        body .w_main .logo .logoImg img {
+          width: 121px;
+          height: 75px; }
+      html .w_main .logo .w_idea,
+      body .w_main .logo .w_idea {
+        display: block;
+        width: 175px;
+        height: 75px;
+        float: left; }
+        html .w_main .logo .w_idea img,
+        body .w_main .logo .w_idea img {
+          width: 175px;
+          height: 75px; }
+    html .w_main .vip_reg,
+    body .w_main .vip_reg {
+      width: 988px;
+      height: 600px;
+      border: 1px solid #9e9e9e3b;
+      background: #f7f7f7; }
+      html .w_main .vip_reg h3,
+      body .w_main .vip_reg h3 {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 50px; }
+      html .w_main .vip_reg .reg_info,
+      body .w_main .vip_reg .reg_info {
+        width: 340px;
+        margin: auto;
+        margin-top: 45px; }
+        html .w_main .vip_reg .reg_info i,
+        body .w_main .vip_reg .reg_info i {
+          display: block; }
+        html .w_main .vip_reg .reg_info .user_tel,
+        body .w_main .vip_reg .reg_info .user_tel {
+          font-size: 12px;
+          margin-bottom: 10px;
+          position: relative; }
+          html .w_main .vip_reg .reg_info .user_tel i,
+          body .w_main .vip_reg .reg_info .user_tel i {
+            width: 12px;
+            height: 16px;
+            background: url(../img/reg_img/ia_10002.png);
+            position: absolute;
+            top: 12px;
+            left: 11px;
+            background-size: 589px;
+            background-position: -576px -25px; }
+          html .w_main .vip_reg .reg_info .user_tel input,
+          body .w_main .vip_reg .reg_info .user_tel input {
+            width: 338px;
+            height: 38px;
+            border: 1px solid #e8e8e8;
+            box-sizing: border-box;
+            padding-left: 35px; }
+        html .w_main .vip_reg .reg_info .ran_code,
+        body .w_main .vip_reg .reg_info .ran_code {
+          font-size: 12px;
+          margin-bottom: 10px;
+          position: relative; }
+          html .w_main .vip_reg .reg_info .ran_code i,
+          body .w_main .vip_reg .reg_info .ran_code i {
+            width: 13px;
+            height: 16px;
+            background: url(../img/reg_img/ia_10002.png);
+            background-size: 589px;
+            background-position: -576px 0;
+            position: absolute;
+            top: 12px;
+            left: 11px; }
+          html .w_main .vip_reg .reg_info .ran_code input,
+          body .w_main .vip_reg .reg_info .ran_code input {
+            width: 228px;
+            border: 1px solid #e8e8e8;
+            height: 38px;
+            box-sizing: border-box;
+            padding-left: 35px; }
+          html .w_main .vip_reg .reg_info .ran_code a,
+          body .w_main .vip_reg .reg_info .ran_code a {
+            display: block;
+            width: 98px;
+            height: 38px;
+            border: 1px solid #e8e8e8;
+            float: right; }
+        html .w_main .vip_reg .reg_info .note_code,
+        body .w_main .vip_reg .reg_info .note_code {
+          font-size: 12px;
+          overflow: hidden;
+          margin-bottom: 10px;
+          position: relative; }
+          html .w_main .vip_reg .reg_info .note_code i,
+          body .w_main .vip_reg .reg_info .note_code i {
+            width: 13px;
+            height: 16px;
+            background: url(../img/reg_img/ia_10002.png);
+            background-size: 589px;
+            background-position: -576px 0;
+            position: absolute;
+            top: 12px;
+            left: 11px; }
+          html .w_main .vip_reg .reg_info .note_code #note,
+          body .w_main .vip_reg .reg_info .note_code #note {
+            width: 228px;
+            height: 38px;
+            border: 1px solid #e8e8e8;
+            box-sizing: border-box;
+            padding-left: 35px;
+            float: left; }
+          html .w_main .vip_reg .reg_info .note_code #noteBtn,
+          body .w_main .vip_reg .reg_info .note_code #noteBtn {
+            width: 98px;
+            height: 38px;
+            border: 1px solid #e8e8e8;
+            float: right;
+            cursor: pointer; }
+        html .w_main .vip_reg .reg_info .pwd,
+        body .w_main .vip_reg .reg_info .pwd {
+          font-size: 12px;
+          margin-bottom: 10px;
+          position: relative; }
+          html .w_main .vip_reg .reg_info .pwd i,
+          body .w_main .vip_reg .reg_info .pwd i {
+            width: 13px;
+            height: 16px;
+            background: url(../img/reg_img/ia_10002.png);
+            background-size: 589px;
+            background-position: -576px -51px;
+            position: absolute;
+            top: 12px;
+            left: 11px; }
+          html .w_main .vip_reg .reg_info .pwd input,
+          body .w_main .vip_reg .reg_info .pwd input {
+            width: 338px;
+            height: 38px;
+            border: 1px solid #e8e8e8;
+            box-sizing: border-box;
+            padding-left: 35px; }
+          html .w_main .vip_reg .reg_info .pwd em,
+          body .w_main .vip_reg .reg_info .pwd em {
+            width: 16px;
+            height: 16px;
+            background: url(../img/reg_img/d.png);
+            background-size: 220px;
+            background-position: -142px -94px;
+            position: absolute;
+            top: 50%;
+            right: 11px;
+            transform: translateY(-50%); }
+        html .w_main .vip_reg .reg_info .pwd2,
+        body .w_main .vip_reg .reg_info .pwd2 {
+          font-size: 12px;
+          margin-bottom: 10px;
+          position: relative; }
+          html .w_main .vip_reg .reg_info .pwd2 i,
+          body .w_main .vip_reg .reg_info .pwd2 i {
+            width: 13px;
+            height: 16px;
+            background: url(../img/reg_img/ia_10002.png);
+            background-size: 589px;
+            background-position: -576px -51px;
+            position: absolute;
+            top: 12px;
+            left: 11px; }
+          html .w_main .vip_reg .reg_info .pwd2 input,
+          body .w_main .vip_reg .reg_info .pwd2 input {
+            width: 338px;
+            height: 38px;
+            border: 1px solid #e8e8e8;
+            box-sizing: border-box;
+            padding-left: 35px; }
+          html .w_main .vip_reg .reg_info .pwd2 em,
+          body .w_main .vip_reg .reg_info .pwd2 em {
+            width: 16px;
+            height: 16px;
+            background: url(../img/reg_img/d.png);
+            background-size: 220px;
+            background-position: -142px -94px;
+            position: absolute;
+            top: 12px;
+            right: 11px; }
+        html .w_main .vip_reg .reg_info .referrer,
+        body .w_main .vip_reg .reg_info .referrer {
+          font-size: 12px;
+          margin-bottom: 28px; }
+          html .w_main .vip_reg .reg_info .referrer input,
+          body .w_main .vip_reg .reg_info .referrer input {
+            width: 338px;
+            height: 38px;
+            border: 1px solid #e8e8e8;
+            box-sizing: border-box;
+            padding-left: 10px; }
+        html .w_main .vip_reg .reg_info #regBtn,
+        body .w_main .vip_reg .reg_info #regBtn {
+          width: 340px;
+          height: 40px;
+          background: #b32424;
+          color: white;
+          font-size: 14px;
+          margin-bottom: 28px; }
+        html .w_main .vip_reg .reg_info .condition,
+        body .w_main .vip_reg .reg_info .condition {
+          font-size: 12px;
+          color: #999; }
+
+/*# sourceMappingURL=register.css.map */

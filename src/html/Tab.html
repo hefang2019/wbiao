@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/tab.css">
+</head>
+
+<body>
+    <div id="expert">
+        <div class="list-top">
+            <h3>达人甄选</h3>
+            <ul>
+                <li class="active">本月爆款</li>
+                <li>正装表</li>
+                <li>时尚表</li>
+                <li>运动智能</li>
+            </ul>
+        </div>
+        <div class="expertTab">
+            <div class="TalentSelection" style="display: block;">爆款</div>
+            <div class="TalentSelection">正装表</div>
+            <div class="TalentSelection">时尚表</div>
+            <div class="TalentSelection">运动智能</div>
+        </div>
+        <div id="prev">
+            <span></span>
+            <i></i>
+        </div>
+        <div id="next">
+            <span></span>
+            <i></i>
+        </div>
+    </div>
+</body>
+<script>
+    (function () {
+
+
+
+        function tab() {
+            this.expert = document.getElementById('expert');
+            this.alis = this.expert.querySelectorAll('.list-top ul li');
+            this.TalentSelections = this.expert.querySelectorAll('.expertTab .TalentSelection');
+        }
+
+        tab.prototype.init = function () {
+            for (var i = 0; i < this.alis.length; i++) {
+                this.alis[i].index = i;
+                let _this = this;
+                this.alis[i].onmouseover = function () {
+                    _this.move(this);
+                }
+            }
+        }
+
+        tab.prototype.move = function (now) {
+
+            for (var i = 0; i < this.alis.length; i++) {
+                this.alis[i].className = '';
+                this.TalentSelections[i].style.display = 'none';
+            }
+            now.className = 'active';
+            this.TalentSelections[now.index].style.display = 'block';
+        }
+
+
+        let t = new tab();
+        t.init();
+    })();
+</script>
+
+</html>

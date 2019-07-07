@@ -1,0 +1,544 @@
+@import url(../base.css);
+header {
+  widows: 100%;
+  height: 100%;
+}
+header .top {
+  height: 28px;
+  background: #f4f4f4;
+}
+header .top .top-con {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .top .introduce {
+  width: 130px;
+  height: 28px;
+  font-size: 12px;
+  color: #998c59;
+  line-height: 28px;
+}
+header .top .userinfo {
+  width: 500px;
+  height: 28px;
+  display: flex;
+}
+header .top .userinfo .top-login-info {
+  width: 200px;
+  height: 28px;
+}
+header .top .userinfo .top-login-info a {
+  font-size: 12px;
+  line-height: 28px;
+}
+header .top .userinfo .top-login-info .login-btn {
+  color: #999;
+  margin-right: 20px;
+}
+header .top .userinfo .top-login-info .reg-info {
+  color: #ae0f17;
+}
+header .top .userinfo .top-cart {
+  font-size: 12px;
+  line-height: 28px;
+  display: flex;
+}
+header .top .userinfo .top-cart a {
+  padding: 0 11px;
+  color: #999;
+}
+header .top .userinfo .top-cart .customer {
+  width: 70px;
+  height: 26px;
+  position: relative;
+  z-index: 9;
+  border: 1px solid #f4f4f4;
+}
+header .top .userinfo .top-cart .customer:hover {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background: #fff;
+}
+header .top .userinfo .top-cart .customer:hover ul {
+  display: block;
+}
+header .top .userinfo .top-cart .customer ul {
+  position: absolute;
+  left: -147px;
+  top: 26px;
+  width: 218px;
+  height: 176px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  display: none;
+}
+header .top .userinfo .top-cart .customer ul span {
+  display: block;
+  width: 70px;
+  height: 10px;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+  right: 0;
+}
+header .top .userinfo .top-cart .customer ul li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+header .top .userinfo .top-cart .customer ul li:hover a {
+  text-decoration: underline;
+}
+header .top .userinfo .top-cart .customer ul .service-hotline {
+  margin-top: 20px;
+  padding-top: 15px;
+  width: 100%;
+  border-top: 1px solid #8888882b;
+}
+header .top .userinfo .top-cart .customer ul .service-hotline p {
+  text-align: center;
+  color: #999;
+}
+header .top .userinfo .top-cart span {
+  color: #999;
+}
+header #content {
+  width: 1200px;
+  margin: 0 auto;
+  height: 115px;
+  display: flex;
+}
+header #content .top-logo {
+  width: 400px;
+  height: 115px;
+  display: flex;
+  line-height: 115px;
+}
+header #content .top-logo h1 img {
+  width: 121px;
+  height: 75px;
+}
+header #content .top-logo .logo2 img {
+  width: 175px;
+  height: 75px;
+}
+header #content .search-box {
+  width: 400px;
+  height: 40px;
+  position: relative;
+  margin-top: 37px;
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+header #content .search-box i {
+  width: 21px;
+  height: 22px;
+  position: absolute;
+  top: 13px;
+  left: 8px;
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -379px -420px;
+}
+header #content .search-box input {
+  width: 316px;
+  height: 38px;
+  box-sizing: border-box;
+  padding-left: 35px;
+  margin-right: 7px;
+}
+header #content .search-box button {
+  width: 76px;
+  height: 40px;
+  background: #b63a3a;
+  text-align: center;
+  margin-left: -4px;
+}
+header #content .second-hand {
+  width: 300px;
+  height: 115px;
+  margin-left: 80px;
+}
+header #content .second-hand a {
+  display: block;
+}
+header #content .second-hand .adj {
+  width: 179px;
+  height: 100px;
+  float: left;
+}
+header #content .second-hand .adj img {
+  widows: 179px;
+  height: 115px;
+}
+header #content .second-hand .presentation {
+  width: 115px;
+  height: 115px;
+  float: right;
+  box-sizing: border-box;
+  padding: 20px 0 0 20px;
+}
+header #content .second-hand .presentation img {
+  width: 85px;
+  height: 88px;
+}
+
+#navigation {
+  width: 100%;
+  height: 48px;
+}
+#navigation .conter {
+  width: 1200px;
+  height: 48px;
+  margin: auto;
+}
+#navigation .conter .com-menu {
+  float: left;
+  position: relative;
+}
+#navigation .conter .com-menu .com-all {
+  display: block;
+  width: 202px;
+  height: 48px;
+  background: #bd4b4b;
+  line-height: 48px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  color: #fff;
+}
+#navigation .conter .com-menu i {
+  display: block;
+  width: 28px;
+  height: 22px;
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -416px -420px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+#navigation .conter .com-menu ul {
+  width: 202px;
+  height: 460px;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.9);
+}
+#navigation .conter .com-menu ul li {
+  width: 202px;
+  height: 56.5px;
+  box-sizing: border-box;
+  padding: 5px;
+  border-bottom: 1px solid #99999963;
+}
+#navigation .conter #list {
+  float: left;
+  padding-left: 10px;
+}
+#navigation .conter #list li {
+  float: left;
+  margin-left: 20px;
+  line-height: 48px;
+  position: relative;
+}
+#navigation .conter #list li a {
+  color: #333;
+}
+#navigation .conter #list li a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+}
+#navigation .conter #list li a:hover::after {
+  width: 100%;
+  transition: all 0.6s;
+}
+
+main {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+main #content {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+main #content .con-top {
+  width: 100%;
+  height: 320px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+main #content .con-top li {
+  width: 291px;
+  height: 280px;
+  overflow: hidden;
+}
+main #content .con-top li:hover img {
+  transform: scale(1.1);
+}
+main #content .con-top li a {
+  display: block;
+}
+main #content .con-top li a img {
+  width: 291px;
+  height: 280px;
+  transition: all 1s;
+}
+main #content #limited {
+  width: 100%;
+  height: 370px;
+}
+main #content #limited .countDown {
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+main #content #limited .countDown h3 {
+  font-size: 20px;
+  color: #cc5252;
+  font-weight: bold;
+  margin-left: 5px;
+  float: left;
+}
+main #content #limited .countDown .stopwatch {
+  width: 290px;
+  height: 26px;
+  background: #cc5252;
+  border-radius: 15px;
+  float: left;
+  margin-left: 22px;
+}
+main #content #limited .countDown .stopwatch p {
+  font-size: 12px;
+  text-align: center;
+  line-height: 26px;
+  color: white;
+}
+main #content #limited .countDown .stopwatch p i {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 3px;
+}
+main #content #limited .countDown a {
+  font-size: 12px;
+  color: #999;
+  float: right;
+}
+main #content #limited .discount {
+  width: 100%;
+  height: 280px;
+  display: flex;
+}
+main #content #limited .discount .discount-left {
+  width: 392px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+main #content #limited .discount .discount-left a {
+  display: block;
+}
+main #content #limited .discount .discount-left a img {
+  width: 392px;
+  height: 280px;
+  transition: all 1s;
+}
+main #content #limited .discount .discount-left a:hover img {
+  transform: scale(1.1);
+}
+main #content #limited .discount .discount-left .LowBrand {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+}
+main #content #limited .discount .discount-left .LowBrand p {
+  font-size: 20px;
+  font-weight: bold;
+}
+main #content #limited .discount .discount-left .LowBrand span {
+  font-size: 12px;
+}
+main #content #limited .discount #discoun-view-box {
+  width: 190px;
+  height: 280px;
+  position: relative;
+  background: #fff;
+}
+main #content #limited .discount #discoun-view-box .discoun-view {
+  width: 190px;
+  height: 280px;
+  position: relative;
+}
+main #content #limited .discount #discoun-view-box .discoun-view .view1,
+main #content #limited .discount #discoun-view-box .discoun-view .view2,
+main #content #limited .discount #discoun-view-box .discoun-view .view3 {
+  width: 190px;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 24px;
+  cursor: pointer;
+}
+main #content #limited .discount #discoun-view-box .discoun-view .view1 img {
+  width: 142px;
+  height: 205px;
+}
+main #content #limited .discount #discoun-view-box .btn {
+  width: 100%;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50% -50%);
+}
+main #content #limited .discount #discoun-view-box .btn .prev {
+  float: left;
+  width: 10px;
+  height: 18px;
+  background: url(../../img/index_img/ia_10008.png);
+  background-position: -137px -374px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+main #content #limited .discount #discoun-view-box .btn .prev b {
+  width: 10px;
+  height: 18px;
+  background: url(../../img/index_img/ia_10008.png);
+  background-position: -418px -296px;
+  cursor: pointer;
+}
+main #content #limited .discount #discoun-view-box .btn .prev:hover b {
+  display: block;
+}
+main #content #limited .discount #discoun-view-box .btn .next {
+  float: right;
+  width: 10px;
+  height: 18px;
+  background: url(../../img/index_img/ia_10008.png);
+  background-position: -96px -374px;
+  cursor: pointer;
+}
+main #content #limited .discount #discoun-view-box .btn .next b {
+  width: 10px;
+  height: 18px;
+  background: url(../../img/index_img/ia_10008.png);
+  background-position: -117px -374px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+main #content #limited .discount #discoun-view-box .btn .next:hover b {
+  display: block;
+}
+main #content #limited .discount #discoun-view-box .dot {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  left: 60px;
+  bottom: 20px;
+}
+main #content #limited .discount #discoun-view-box .dot span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  float: left;
+  margin-left: 5px;
+  background: #999;
+  opacity: .5;
+}
+main #content #auction {
+  width: 100%;
+  height: 370px;
+}
+main #content #auction .top-title {
+  width: 100%;
+  height: 64px;
+}
+main #content #auction .top-title h3 {
+  display: inline-block;
+  width: 80px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #cc5252;
+  margin-left: 10px;
+  line-height: 64px;
+}
+main #content #auction .top-title a {
+  font-size: 12px;
+  color: #999;
+  float: right;
+  line-height: 64px;
+}
+main #content #auction .yard-sale {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+main #content #auction .yard-sale:hover img {
+  transform: scale(1.1);
+}
+main #content #auction .yard-sale .left-goods {
+  width: 390px;
+  height: 280px;
+  position: relative;
+}
+main #content #auction .yard-sale .left-goods a {
+  display: block;
+}
+main #content #auction .yard-sale .left-goods a img {
+  width: 392px;
+  height: 280px;
+  transition: all 1s;
+}
+main #content #auction .yard-sale .left-goods a .goods-info {
+  width: 392px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+main #content #auction .yard-sale .left-goods a .goods-info p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+main #content #auction .yard-sale .left-goods a .goods-info span {
+  font-size: 12px;
+  color: white;
+}
+
+#horizontal-swiper-container {
+  width: 570px;
+  padding: 0 12px;
+  height: 280px;
+}
+#horizontal-swiper-container .swiper-slide img {
+  width: 30%;
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=index.css.map */
