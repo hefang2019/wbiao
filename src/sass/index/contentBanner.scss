@@ -340,15 +340,17 @@ main {
                 height: 280px;
                 overflow: hidden;
 
-                &:hover img {
-                    transform: scale(1.1);
-                }
+
 
                 .left-goods {
                     width: 390px;
                     height: 280px;
                     position: relative;
                     float: left;
+
+                    &:hover img {
+                        transform: scale(1.1);
+                    }
 
                     a {
                         display: block;
@@ -381,27 +383,72 @@ main {
                     }
                 }
 
-                #used-swiper-container {
-                    width: 791px;
-                    height: 280px;
-                    float: right;
 
-                    .swiper-wrapper {
-                        width: 791px;
-                        height: 280px;
-                        transform: translate3d(0px, 0px, 0px);
+            }
 
-                        .wiper-slide {
-                            width: 791px;
-                            height: 280px;
+            #used-swiper-container {
+                width: 791px;
+                height: 280px;
+                float: right;
 
-                            list {
-                                width: 166px;
-                                height: 280px;
-                                float: left;
+                .swiper-slide {
+                    display: flex;
+
+                    .list {
+                        width: 33%;
+                        height: 100%;
+                        text-align: center;
+                        cursor: pointer;
+
+                        .price {
+                            width: 100%;
+                            height: 40px;
+
+                            p {
+                                color: #666;
+                                font-size: 12px;
+                                margin-top: 10px;
+                            }
+
+                            .sp1 {
+                                display: inline-block;
+                                width: 48px;
+                                height: 20px;
+                                color: #fff;
+                                background: #cc5252;
+                                border-top-left-radius: 10px;
+                                border-bottom-left-radius: 10px;
+                            }
+
+                            .sp2 {
+                                display: inline-block;
+                                width: 48px;
+                                height: 20px;
+                                color: #fff;
+                                background: #ccc;
+                                border-top-right-radius: 10px;
+                                border-bottom-right-radius: 10px;
+                            }
+
+                            del {
+                                font-size: 12px;
+                                font-weight: bold;
+                                color: #666;
                             }
                         }
                     }
+
+
+                }
+
+                #next {
+                    width: 30px;
+                    height: 18px;
+                }
+
+                #prev {
+                    width: 30px;
+                    height: 18px;
                 }
             }
         }
@@ -935,3 +982,4 @@ main {
 }
 
 @import 'footer.scss';
+@import 'bar.scss';

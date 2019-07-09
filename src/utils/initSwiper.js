@@ -24,6 +24,9 @@ function initSwiper(id) {
     if (id == "horizontal-swiper-container") {
         delete config.pagination;
     }
+    if (id == "#used-swiper-container") {
+        delete config.pagination;
+    }
     var s1 = new Swiper("#" + id, config);
     var oBox = document.getElementById(id);
 

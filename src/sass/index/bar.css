@@ -1,0 +1,132 @@
+#side-bar {
+  width: 323px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -279px;
+  z-index: 999;
+}
+#side-bar #barUl {
+  width: 44px;
+  height: 220px;
+  float: left;
+  background: #fff;
+  position: fixed;
+  top: 550px;
+  right: 0;
+}
+#side-bar #barUl li {
+  width: 100%;
+  height: 20%;
+  box-sizing: border-box;
+  padding-top: 10px;
+  position: relative;
+}
+#side-bar #barUl li:hover span {
+  display: block;
+}
+#side-bar #barUl li a {
+  display: block;
+  width: 24px;
+  margin: 0 auto;
+  height: 24px;
+}
+#side-bar #barUl li:nth-child(1) a {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -508px -383px;
+}
+#side-bar #barUl li:nth-child(2) a {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -508px -248px;
+}
+#side-bar #barUl li:nth-child(3) a {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -469px -360px;
+}
+#side-bar #barUl li:nth-child(4) a {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -546px -338px;
+}
+#side-bar #barUl li:nth-child(5) a {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -546px -367px;
+}
+#side-bar #barUl li span {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  right: 44px;
+  width: 80px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+}
+#side-bar #barUl li:nth-child(4) span {
+  width: 220px;
+  height: 220px;
+  box-sizing: border-box;
+  padding: 35px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  bottom: -44px;
+}
+#side-bar .shoppingCart {
+  width: 277px;
+  height: 949px;
+  border-left: 2px solid #000;
+  float: right;
+  background: #f1f1f1;
+  position: fixed;
+  top: 0;
+  right: -277px;
+}
+#side-bar .shoppingCart .cart {
+  width: 100%;
+  height: 47px;
+  border-bottom: 1px solid #ccc;
+}
+#side-bar .shoppingCart .cart span {
+  font-weight: 500;
+  color: #333;
+  line-height: 48px;
+  margin-left: 20px;
+}
+#side-bar .shoppingCart .cart i {
+  float: right;
+  line-height: 48px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+#side-bar .shoppingCart .p_text {
+  display: inline-block;
+  width: 100%;
+  height: 32px;
+  background: #fff9ce;
+  font-size: 12px;
+  line-height: 32px;
+}
+#side-bar .shoppingCart .p_text a {
+  margin-left: 38px;
+}
+#side-bar .shoppingCart .perpleShop {
+  width: 100%;
+  height: 86px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+}
+#side-bar .shoppingCart .perpleShop i {
+  display: block;
+  width: 54px;
+  height: 52px;
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: 0 -296px;
+  margin: 0 auto 23px;
+}
+#side-bar .shoppingCart .perpleShop p {
+  font-size: 12px;
+  color: #666;
+}

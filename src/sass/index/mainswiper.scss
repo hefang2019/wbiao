@@ -1,6 +1,14 @@
+.navi {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
 #navigation {
     width: 100%;
     height: 48px;
+    background: #fff;
 
     .conter {
         width: 1200px;

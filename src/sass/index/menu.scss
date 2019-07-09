@@ -7,6 +7,8 @@
     background: rgba(255, 255, 255, 0.9);
 
     #aul {
+        position: relative;
+
         li {
             width: 202px;
             height: 57.5px;
@@ -14,10 +16,14 @@
             padding: 5px;
             border-bottom: 1px solid #99999963;
             line-height: 52px;
-            position: relative;
+
 
             &:hover {
                 background: #fff;
+
+                .menuThree {
+                    display: block;
+                }
 
                 &::after {
                     content: '';
