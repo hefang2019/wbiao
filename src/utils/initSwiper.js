@@ -20,9 +20,9 @@ function initSwiper(id) {
             }
         },
         mousewheel: true
-    }
-    if (id == 'horizontal-swiper-container') {
-        delete config.pagination
+    };
+    if (id == "horizontal-swiper-container") {
+        delete config.pagination;
     }
     var s1 = new Swiper("#" + id, config);
     var oBox = document.getElementById(id);
@@ -40,6 +40,6 @@ function initSwiper(id) {
 
 export {
     initSwiper
-}
+};
 
-console.log('git commit')
+// console.log('git commit')

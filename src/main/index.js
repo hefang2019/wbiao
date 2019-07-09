@@ -8,6 +8,10 @@ import {
 import {
     settime
 } from '../page/index/comm'
+import {
+    menu
+} from '../page/index/menu'
 renderdMainBanner()
 runderHorizontalBanner()
 settime()
+menu()
