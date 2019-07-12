@@ -1,0 +1,436 @@
+@import url(../base.css);
+footer {
+  width: 100%;
+  height: 100%;
+}
+footer .guarantee {
+  width: 1200px;
+  height: 70px;
+  margin: auto;
+  background: #fff;
+}
+footer .guarantee li {
+  width: 20%;
+  height: 70px;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 20px;
+  text-align: center;
+}
+footer .guarantee li i {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  vertical-align: middle;
+}
+footer .guarantee li span {
+  font-size: 14px;
+  color: #666;
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .guarantee li:nth-child(1) i {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -409px -357px;
+}
+footer .guarantee li:nth-child(2) i {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: 0 -414px;
+}
+footer .guarantee li:nth-child(3) i {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -361px -357px;
+}
+footer .guarantee li:nth-child(4) i {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -313px -357px;
+}
+footer .guarantee li:nth-child(5) i {
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -265px -357px;
+}
+footer .afterService {
+  width: 100%;
+  height: 441px;
+  background: #333;
+}
+footer .afterService .content {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+footer .afterService .content .serviceChannel {
+  width: 100%;
+  height: 240px;
+  box-sizing: border-box;
+  padding-top: 45px;
+}
+footer .afterService .content .serviceChannel .supportPhone {
+  width: 200px;
+  height: 100%;
+  float: left;
+}
+footer .afterService .content .serviceChannel .supportPhone .p1 {
+  color: #ccaa7a;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 12px;
+  margin-bottom: 20px;
+}
+footer .afterService .content .serviceChannel .supportPhone b {
+  font-size: 18px;
+  color: #ccaa7a;
+}
+footer .afterService .content .serviceChannel .supportPhone .p2 {
+  font-size: 12px;
+  color: #999;
+}
+footer .afterService .content .serviceChannel .supportPhone span {
+  display: block;
+  width: 132px;
+  height: 36px;
+  border: 1px solid #999;
+  border-radius: 20px;
+  color: #999;
+  text-align: center;
+  margin-top: 18px;
+  line-height: 36px;
+  cursor: pointer;
+}
+footer .afterService .content .serviceChannel .supportPhone span:hover {
+  color: #fff;
+  background: #ccaa7a;
+}
+footer .afterService .content .serviceChannel .guide {
+  width: 625px;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 60px;
+}
+footer .afterService .content .serviceChannel .guide dl {
+  width: 20%;
+  height: 100%;
+  font-size: 12px;
+  text-align: center;
+  float: left;
+}
+footer .afterService .content .serviceChannel .guide dl dt {
+  font-weight: bold;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+footer .afterService .content .serviceChannel .guide dl dd {
+  color: #999;
+  line-height: 28px;
+}
+footer .afterService .content .serviceChannel .guide :nth-child(5) dt {
+  color: #ccaa7a;
+}
+footer .afterService .content .serviceChannel .guide :nth-child(5) :nth-child(3) {
+  color: #ccaa7a;
+}
+footer .afterService .content .serviceChannel .twoDimension {
+  width: 372px;
+  height: 100%;
+  float: right;
+}
+footer .afterService .content .serviceChannel .twoDimension a {
+  display: inline-block;
+  margin-left: 150px;
+}
+footer .afterService .content .blogroll {
+  width: 100%;
+  height: 201px;
+}
+footer .afterService .content .blogroll .externalLinks {
+  font-size: 12px;
+  text-align: center;
+}
+footer .afterService .content .blogroll .externalLinks a {
+  color: #999;
+  display: inline-block;
+  margin: 40px 10px;
+}
+footer .afterService .content .blogroll .externalLinks a:hover {
+  color: #fff;
+}
+footer .afterService .content .blogroll .externalLinks span {
+  color: #999;
+}
+footer .afterService .content .blogroll .wb_records {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+}
+footer .afterService .content .blogroll .wb_records p {
+  line-height: 28px;
+}
+footer .afterService .content .blogroll .wb_records p a {
+  color: #666;
+}
+
+#wb_filing {
+  width: 100%;
+  height: 152px;
+  background: #fff;
+}
+#wb_filing .content {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+#wb_filing .content .credential {
+  text-align: center;
+}
+#wb_filing .content .credential a {
+  display: inline-block;
+  margin: 20px;
+}
+#wb_filing .content .credential a img {
+  width: 92px;
+  height: 38px;
+}
+#wb_filing .content .wb_links {
+  text-align: center;
+}
+#wb_filing .content .wb_links a {
+  display: inline-block;
+  margin: 10px;
+  color: #666;
+  font-size: 12px;
+}
+
+header {
+  widows: 100%;
+  height: 100%;
+}
+header .top {
+  height: 28px;
+  background: #f4f4f4;
+}
+header .top .top-con {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .top .introduce {
+  width: 130px;
+  height: 28px;
+  font-size: 12px;
+  color: #998c59;
+  line-height: 28px;
+}
+header .top .userinfo {
+  width: 500px;
+  height: 28px;
+  display: flex;
+}
+header .top .userinfo .top-login-info {
+  width: 200px;
+  height: 28px;
+}
+header .top .userinfo .top-login-info a {
+  font-size: 12px;
+  line-height: 28px;
+}
+header .top .userinfo .top-login-info .login-btn {
+  color: #999;
+  margin-right: 20px;
+}
+header .top .userinfo .top-login-info .reg-info {
+  color: #ae0f17;
+}
+header .top .userinfo .top-cart {
+  font-size: 12px;
+  line-height: 28px;
+  display: flex;
+}
+header .top .userinfo .top-cart a {
+  padding: 0 11px;
+  color: #999;
+}
+header .top .userinfo .top-cart .customer {
+  width: 70px;
+  height: 26px;
+  position: relative;
+  z-index: 9;
+  border: 1px solid #f4f4f4;
+}
+header .top .userinfo .top-cart .customer:hover {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background: #fff;
+}
+header .top .userinfo .top-cart .customer:hover ul {
+  display: block;
+}
+header .top .userinfo .top-cart .customer ul {
+  position: absolute;
+  left: -147px;
+  top: 26px;
+  width: 218px;
+  height: 176px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  display: none;
+}
+header .top .userinfo .top-cart .customer ul span {
+  display: block;
+  width: 70px;
+  height: 10px;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+  right: 0;
+}
+header .top .userinfo .top-cart .customer ul li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+header .top .userinfo .top-cart .customer ul li:hover a {
+  text-decoration: underline;
+}
+header .top .userinfo .top-cart .customer ul .service-hotline {
+  margin-top: 20px;
+  padding-top: 15px;
+  width: 100%;
+  border-top: 1px solid #8888882b;
+}
+header .top .userinfo .top-cart .customer ul .service-hotline p {
+  text-align: center;
+  color: #999;
+}
+header .top .userinfo .top-cart span {
+  color: #999;
+}
+header #content {
+  width: 1200px;
+  margin: 0 auto;
+  height: 115px;
+  display: flex;
+}
+header #content .top-logo {
+  width: 400px;
+  height: 115px;
+  display: flex;
+  line-height: 115px;
+}
+header #content .top-logo h1 img {
+  width: 121px;
+  height: 75px;
+}
+header #content .top-logo .logo2 img {
+  width: 175px;
+  height: 75px;
+}
+header #content .search-box {
+  width: 400px;
+  height: 40px;
+  position: relative;
+  margin-top: 37px;
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+header #content .search-box i {
+  width: 21px;
+  height: 22px;
+  position: absolute;
+  top: 13px;
+  left: 8px;
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: -379px -420px;
+}
+header #content .search-box input {
+  width: 316px;
+  height: 38px;
+  box-sizing: border-box;
+  padding-left: 35px;
+  margin-right: 7px;
+}
+header #content .search-box button {
+  width: 76px;
+  height: 40px;
+  background: #b63a3a;
+  text-align: center;
+  margin-left: -4px;
+}
+header #content .second-hand {
+  width: 300px;
+  height: 115px;
+  margin-left: 80px;
+}
+header #content .second-hand a {
+  display: block;
+}
+header #content .second-hand .adj {
+  width: 179px;
+  height: 100px;
+  float: left;
+}
+header #content .second-hand .adj img {
+  widows: 179px;
+  height: 115px;
+}
+header #content .second-hand .presentation {
+  width: 115px;
+  height: 115px;
+  float: right;
+  box-sizing: border-box;
+  padding: 20px 0 0 20px;
+}
+header #content .second-hand .presentation img {
+  width: 85px;
+  height: 88px;
+}
+
+header .search-box {
+  display: none;
+}
+header .second-hand {
+  display: none;
+}
+
+main {
+  width: 100%;
+}
+main .content {
+  width: 1200px;
+  margin: auto;
+}
+main .content .cart_empty {
+  text-align: center;
+}
+main .content .cart_empty i {
+  margin: auto;
+  display: block;
+  width: 82px;
+  height: 84px;
+  background: url(../../img/index_img/ia_10007.png);
+  background-position: 0 -112px;
+}
+main .content .cart_empty .tx1 {
+  font-size: 18px;
+  color: #666;
+  line-height: 25px;
+}
+main .content .cart_empty .tx2 {
+  font-size: 14px;
+  color: #999;
+}
+main .content .cart_empty .tx2 a {
+  color: #cc5252;
+  text-decoration: underline;
+}
+main .content .cart_empty .cart_btn .goto_shopping {
+  background: #cc5252;
+  color: #fff;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=cart.css.map */

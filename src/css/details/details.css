@@ -1,0 +1,914 @@
+@import url(../base.css);
+header {
+  widows: 100%;
+  height: 100%; }
+  header .top {
+    height: 28px;
+    background: #f4f4f4; }
+    header .top .top-con {
+      width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between; }
+    header .top .introduce {
+      width: 130px;
+      height: 28px;
+      font-size: 12px;
+      color: #998c59;
+      line-height: 28px; }
+    header .top .userinfo {
+      width: 500px;
+      height: 28px;
+      display: flex; }
+      header .top .userinfo .top-login-info {
+        width: 200px;
+        height: 28px; }
+        header .top .userinfo .top-login-info a {
+          font-size: 12px;
+          line-height: 28px; }
+        header .top .userinfo .top-login-info .login-btn {
+          color: #999;
+          margin-right: 20px; }
+        header .top .userinfo .top-login-info .reg-info {
+          color: #ae0f17; }
+      header .top .userinfo .top-cart {
+        font-size: 12px;
+        line-height: 28px;
+        display: flex; }
+        header .top .userinfo .top-cart a {
+          padding: 0 11px;
+          color: #999; }
+        header .top .userinfo .top-cart .customer {
+          width: 70px;
+          height: 26px;
+          position: relative;
+          z-index: 9;
+          border: 1px solid #f4f4f4; }
+          header .top .userinfo .top-cart .customer:hover {
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            background: #fff; }
+          header .top .userinfo .top-cart .customer:hover ul {
+            display: block; }
+          header .top .userinfo .top-cart .customer ul {
+            position: absolute;
+            left: -147px;
+            top: 26px;
+            width: 218px;
+            height: 176px;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background: white;
+            display: none; }
+            header .top .userinfo .top-cart .customer ul span {
+              display: block;
+              width: 70px;
+              height: 10px;
+              background: #fff;
+              position: absolute;
+              top: -1px;
+              right: 0; }
+            header .top .userinfo .top-cart .customer ul li {
+              float: left;
+              width: 50%;
+              text-align: center; }
+              header .top .userinfo .top-cart .customer ul li:hover a {
+                text-decoration: underline; }
+            header .top .userinfo .top-cart .customer ul .service-hotline {
+              margin-top: 20px;
+              padding-top: 15px;
+              width: 100%;
+              border-top: 1px solid #8888882b; }
+              header .top .userinfo .top-cart .customer ul .service-hotline p {
+                text-align: center;
+                color: #999; }
+        header .top .userinfo .top-cart span {
+          color: #999; }
+  header #content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 115px;
+    display: flex; }
+    header #content .top-logo {
+      width: 400px;
+      height: 115px;
+      display: flex;
+      line-height: 115px; }
+      header #content .top-logo h1 img {
+        width: 121px;
+        height: 75px; }
+      header #content .top-logo .logo2 img {
+        width: 175px;
+        height: 75px; }
+    header #content .search-box {
+      width: 400px;
+      height: 40px;
+      position: relative;
+      margin-top: 37px;
+      border: 1px solid #888;
+      border-radius: 5px; }
+      header #content .search-box i {
+        width: 21px;
+        height: 22px;
+        position: absolute;
+        top: 13px;
+        left: 8px;
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -379px -420px; }
+      header #content .search-box input {
+        width: 316px;
+        height: 38px;
+        box-sizing: border-box;
+        padding-left: 35px;
+        margin-right: 7px; }
+      header #content .search-box button {
+        width: 76px;
+        height: 40px;
+        background: #b63a3a;
+        text-align: center;
+        margin-left: -4px; }
+    header #content .second-hand {
+      width: 300px;
+      height: 115px;
+      margin-left: 80px; }
+      header #content .second-hand a {
+        display: block; }
+      header #content .second-hand .adj {
+        width: 179px;
+        height: 100px;
+        float: left; }
+        header #content .second-hand .adj img {
+          widows: 179px;
+          height: 115px; }
+      header #content .second-hand .presentation {
+        width: 115px;
+        height: 115px;
+        float: right;
+        box-sizing: border-box;
+        padding: 20px 0 0 20px; }
+        header #content .second-hand .presentation img {
+          width: 85px;
+          height: 88px; }
+
+footer {
+  width: 100%;
+  height: 100%; }
+  footer .guarantee {
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+    background: #fff; }
+    footer .guarantee li {
+      width: 20%;
+      height: 70px;
+      float: left;
+      box-sizing: border-box;
+      padding-top: 20px;
+      text-align: center; }
+      footer .guarantee li i {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        vertical-align: middle; }
+      footer .guarantee li span {
+        font-size: 14px;
+        color: #666;
+        display: inline-block;
+        vertical-align: middle; }
+      footer .guarantee li:nth-child(1) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -409px -357px; }
+      footer .guarantee li:nth-child(2) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: 0 -414px; }
+      footer .guarantee li:nth-child(3) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -361px -357px; }
+      footer .guarantee li:nth-child(4) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -313px -357px; }
+      footer .guarantee li:nth-child(5) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -265px -357px; }
+  footer .afterService {
+    width: 100%;
+    height: 441px;
+    background: #333; }
+    footer .afterService .content {
+      width: 1200px;
+      height: 100%;
+      margin: auto; }
+      footer .afterService .content .serviceChannel {
+        width: 100%;
+        height: 240px;
+        box-sizing: border-box;
+        padding-top: 45px; }
+        footer .afterService .content .serviceChannel .supportPhone {
+          width: 200px;
+          height: 100%;
+          float: left; }
+          footer .afterService .content .serviceChannel .supportPhone .p1 {
+            color: #ccaa7a;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 12px;
+            margin-bottom: 20px; }
+          footer .afterService .content .serviceChannel .supportPhone b {
+            font-size: 18px;
+            color: #ccaa7a; }
+          footer .afterService .content .serviceChannel .supportPhone .p2 {
+            font-size: 12px;
+            color: #999; }
+          footer .afterService .content .serviceChannel .supportPhone span {
+            display: block;
+            width: 132px;
+            height: 36px;
+            border: 1px solid #999;
+            border-radius: 20px;
+            color: #999;
+            text-align: center;
+            margin-top: 18px;
+            line-height: 36px;
+            cursor: pointer; }
+            footer .afterService .content .serviceChannel .supportPhone span:hover {
+              color: #fff;
+              background: #ccaa7a; }
+        footer .afterService .content .serviceChannel .guide {
+          width: 625px;
+          height: 100%;
+          float: left;
+          box-sizing: border-box;
+          padding-left: 60px; }
+          footer .afterService .content .serviceChannel .guide dl {
+            width: 20%;
+            height: 100%;
+            font-size: 12px;
+            text-align: center;
+            float: left; }
+            footer .afterService .content .serviceChannel .guide dl dt {
+              font-weight: bold;
+              color: #ccc;
+              margin-bottom: 10px; }
+            footer .afterService .content .serviceChannel .guide dl dd {
+              color: #999;
+              line-height: 28px; }
+          footer .afterService .content .serviceChannel .guide :nth-child(5) dt {
+            color: #ccaa7a; }
+          footer .afterService .content .serviceChannel .guide :nth-child(5) :nth-child(3) {
+            color: #ccaa7a; }
+        footer .afterService .content .serviceChannel .twoDimension {
+          width: 372px;
+          height: 100%;
+          float: right; }
+          footer .afterService .content .serviceChannel .twoDimension a {
+            display: inline-block;
+            margin-left: 150px; }
+      footer .afterService .content .blogroll {
+        width: 100%;
+        height: 201px; }
+        footer .afterService .content .blogroll .externalLinks {
+          font-size: 12px;
+          text-align: center; }
+          footer .afterService .content .blogroll .externalLinks a {
+            color: #999;
+            display: inline-block;
+            margin: 40px 10px; }
+            footer .afterService .content .blogroll .externalLinks a:hover {
+              color: #fff; }
+          footer .afterService .content .blogroll .externalLinks span {
+            color: #999; }
+        footer .afterService .content .blogroll .wb_records {
+          color: #999;
+          font-size: 12px;
+          text-align: center; }
+          footer .afterService .content .blogroll .wb_records p {
+            line-height: 28px; }
+            footer .afterService .content .blogroll .wb_records p a {
+              color: #666; }
+
+#wb_filing {
+  width: 100%;
+  height: 152px;
+  background: #fff; }
+  #wb_filing .content {
+    width: 1200px;
+    height: 100%;
+    margin: auto; }
+    #wb_filing .content .credential {
+      text-align: center; }
+      #wb_filing .content .credential a {
+        display: inline-block;
+        margin: 20px; }
+        #wb_filing .content .credential a img {
+          width: 92px;
+          height: 38px; }
+    #wb_filing .content .wb_links {
+      text-align: center; }
+      #wb_filing .content .wb_links a {
+        display: inline-block;
+        margin: 10px;
+        color: #666;
+        font-size: 12px; }
+
+#side-bar {
+  width: 323px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -279px;
+  z-index: 999; }
+  #side-bar #barUl {
+    width: 44px;
+    height: 220px;
+    float: left;
+    background: #fff;
+    position: fixed;
+    top: 550px;
+    right: 0; }
+    #side-bar #barUl li {
+      width: 100%;
+      height: 20%;
+      box-sizing: border-box;
+      padding-top: 10px;
+      position: relative; }
+      #side-bar #barUl li:hover span {
+        display: block; }
+      #side-bar #barUl li a {
+        display: block;
+        width: 24px;
+        margin: 0 auto;
+        height: 24px; }
+      #side-bar #barUl li:nth-child(1) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -508px -383px; }
+      #side-bar #barUl li:nth-child(2) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -508px -248px; }
+      #side-bar #barUl li:nth-child(3) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -469px -360px; }
+      #side-bar #barUl li:nth-child(4) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -546px -338px; }
+      #side-bar #barUl li:nth-child(5) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -546px -367px; }
+      #side-bar #barUl li span {
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        right: 44px;
+        width: 80px;
+        padding: 10px;
+        background: #f1f1f1;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        cursor: pointer; }
+      #side-bar #barUl li:nth-child(4) span {
+        width: 220px;
+        height: 220px;
+        box-sizing: border-box;
+        padding: 35px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        bottom: -44px; }
+  #side-bar .shoppingCart {
+    width: 277px;
+    height: 949px;
+    border-left: 2px solid #000;
+    float: right;
+    background: #f1f1f1;
+    position: fixed;
+    top: 0;
+    right: -277px; }
+    #side-bar .shoppingCart .cart {
+      width: 100%;
+      height: 47px;
+      border-bottom: 1px solid #ccc; }
+      #side-bar .shoppingCart .cart span {
+        font-weight: 500;
+        color: #333;
+        line-height: 48px;
+        margin-left: 20px; }
+      #side-bar .shoppingCart .cart i {
+        float: right;
+        line-height: 48px;
+        margin-right: 20px;
+        cursor: pointer; }
+    #side-bar .shoppingCart .p_text {
+      display: inline-block;
+      width: 100%;
+      height: 32px;
+      background: #fff9ce;
+      font-size: 12px;
+      line-height: 32px; }
+      #side-bar .shoppingCart .p_text a {
+        margin-left: 38px; }
+    #side-bar .shoppingCart .perpleShop {
+      width: 100%;
+      height: 86px;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      text-align: center; }
+      #side-bar .shoppingCart .perpleShop i {
+        display: block;
+        width: 54px;
+        height: 52px;
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: 0 -296px;
+        margin: 0 auto 23px; }
+      #side-bar .shoppingCart .perpleShop p {
+        font-size: 12px;
+        color: #666; }
+
+.navi {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99; }
+
+#navigation {
+  width: 100%;
+  height: 48px;
+  background: #fff; }
+  #navigation .conter {
+    width: 1200px;
+    height: 48px;
+    margin: auto; }
+    #navigation .conter .com-menu {
+      float: left;
+      position: relative; }
+      #navigation .conter .com-menu .com-all {
+        display: block;
+        width: 202px;
+        height: 48px;
+        background: #bd4b4b;
+        line-height: 48px;
+        box-sizing: border-box;
+        padding-left: 20px;
+        color: #fff; }
+      #navigation .conter .com-menu i {
+        display: block;
+        width: 28px;
+        height: 22px;
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -416px -420px;
+        position: absolute;
+        top: 15px;
+        right: 15px; }
+    #navigation .conter #list {
+      float: left;
+      padding-left: 10px; }
+      #navigation .conter #list li {
+        float: left;
+        margin-left: 20px;
+        line-height: 48px;
+        position: relative; }
+        #navigation .conter #list li a {
+          color: #333; }
+          #navigation .conter #list li a::after {
+            content: "";
+            width: 0;
+            height: 2px;
+            background-color: red;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%); }
+          #navigation .conter #list li a:hover::after {
+            width: 100%;
+            transition: all 0.6s; }
+    #navigation .conter #ulmenu {
+      width: 202px;
+      height: 460px;
+      position: absolute;
+      top: 191px;
+      z-index: 999;
+      background: rgba(255, 255, 255, 0.9); }
+      #navigation .conter #ulmenu #aul {
+        position: relative; }
+        #navigation .conter #ulmenu #aul li {
+          width: 202px;
+          height: 57.5px;
+          box-sizing: border-box;
+          padding: 5px;
+          border-bottom: 1px solid #99999963;
+          line-height: 52px; }
+          #navigation .conter #ulmenu #aul li:hover {
+            background: #fff; }
+            #navigation .conter #ulmenu #aul li:hover .menuThree {
+              display: block; }
+            #navigation .conter #ulmenu #aul li:hover::after {
+              content: '';
+              display: block;
+              width: 3px;
+              height: 100%;
+              background-color: #ccaa7a;
+              position: absolute;
+              left: 0;
+              top: 0; }
+          #navigation .conter #ulmenu #aul li dl {
+            font-size: 12px; }
+            #navigation .conter #ulmenu #aul li dl dt {
+              display: inline-block;
+              font-weight: bold;
+              float: left;
+              margin-right: 6px; }
+              #navigation .conter #ulmenu #aul li dl dt a {
+                color: #333; }
+            #navigation .conter #ulmenu #aul li dl dd {
+              float: left;
+              margin-right: 5px; }
+              #navigation .conter #ulmenu #aul li dl dd a {
+                color: #666; }
+                #navigation .conter #ulmenu #aul li dl dd a:hover {
+                  text-decoration: underline; }
+          #navigation .conter #ulmenu #aul li .menuThree {
+            width: 998px;
+            height: 460px;
+            background: #fff;
+            position: absolute;
+            top: 0;
+            left: 202px;
+            box-sizing: border-box;
+            padding: 24px;
+            box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.1);
+            display: none; }
+            #navigation .conter #ulmenu #aul li .menuThree .brands {
+              width: 707px;
+              height: 414px;
+              float: left; }
+              #navigation .conter #ulmenu #aul li .menuThree .brands h3 {
+                font-size: 14px;
+                line-height: 14px;
+                padding-left: 10px;
+                font-weight: 700;
+                border-left: 3px solid #666; }
+              #navigation .conter #ulmenu #aul li .menuThree .brands .brandsImg {
+                width: 100%;
+                height: 280px;
+                overflow-y: auto;
+                margin-top: 10px; }
+                #navigation .conter #ulmenu #aul li .menuThree .brands .brandsImg a {
+                  display: block;
+                  width: 137px;
+                  height: 77px;
+                  text-align: center;
+                  border: 1px solid #ccc;
+                  float: left; }
+                  #navigation .conter #ulmenu #aul li .menuThree .brands .brandsImg a img {
+                    width: 120px;
+                    height: 48px;
+                    margin-top: 15px; }
+              #navigation .conter #ulmenu #aul li .menuThree .brands h4 {
+                font-size: 14px;
+                line-height: 14px;
+                padding-left: 10px;
+                font-weight: 700;
+                color: #666;
+                border-left: 3px solid #333;
+                margin-top: 24px; }
+              #navigation .conter #ulmenu #aul li .menuThree .brands .hotWord {
+                width: 100%;
+                height: 60px;
+                text-align: center; }
+                #navigation .conter #ulmenu #aul li .menuThree .brands .hotWord a {
+                  display: inline-block;
+                  height: 36px;
+                  line-height: 36px;
+                  padding: 0 18px;
+                  border: 1px solid #ccc;
+                  border-radius: 100px;
+                  font-size: 12px;
+                  color: #666; }
+            #navigation .conter #ulmenu #aul li .menuThree .p1 {
+              display: inline-block;
+              width: 205px;
+              height: 412px;
+              float: right; }
+
+main {
+  width: 100%; }
+  main .m_top {
+    height: 36px;
+    background: #eee; }
+    main .m_top .m_top_con {
+      width: 1200px;
+      margin: auto;
+      font-size: 12px;
+      color: #999;
+      line-height: 36px;
+      display: flex; }
+      main .m_top .m_top_con .m_top_left {
+        width: 50%; }
+      main .m_top .m_top_con .m_top_right {
+        width: 50%;
+        text-align: right; }
+        main .m_top .m_top_con .m_top_right span {
+          border: 1px solid #cc9952;
+          color: #cc9952;
+          padding: 0 10px;
+          border-radius: 8px; }
+        main .m_top .m_top_con .m_top_right b {
+          margin: 0 10px; }
+  main #wb_main {
+    margin: 20px 0;
+    width: 100%; }
+    main #wb_main .content {
+      width: 1200px;
+      margin: auto; }
+      main #wb_main .content .goodsdate {
+        width: 100%; }
+        main #wb_main .content .goodsdate::after {
+          content: "";
+          display: block;
+          clear: both;
+          overflow: hidden;
+          height: 0;
+          visibility: hidden; }
+        main #wb_main .content .goodsdate .gdImg {
+          width: 500px;
+          float: left; }
+          main #wb_main .content .goodsdate .gdImg #bg_img {
+            width: 500px;
+            height: 500px;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid #ccc; }
+            main #wb_main .content .goodsdate .gdImg #bg_img img {
+              width: 480px;
+              height: 480px; }
+          main #wb_main .content .goodsdate .gdImg #min_img {
+            width: 100%;
+            height: 80px;
+            display: flex;
+            margin-top: 10px; }
+            main #wb_main .content .goodsdate .gdImg #min_img a {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              margin-top: 34px; }
+            main #wb_main .content .goodsdate .gdImg #min_img #prev {
+              background: url(../../img/index_img/ia_10007.png);
+              background-position: -345px -177px; }
+            main #wb_main .content .goodsdate .gdImg #min_img ul {
+              width: 450px;
+              height: 80px;
+              display: flex; }
+              main #wb_main .content .goodsdate .gdImg #min_img ul li {
+                padding: 4px;
+                border: 1px solid #eee;
+                margin: 0 1px; }
+                main #wb_main .content .goodsdate .gdImg #min_img ul li img {
+                  width: 64px;
+                  height: 64px;
+                  opacity: 0.5; }
+                main #wb_main .content .goodsdate .gdImg #min_img ul li .opci {
+                  opacity: 1; }
+            main #wb_main .content .goodsdate .gdImg #min_img #next {
+              margin-left: 20px;
+              background: url(../../img/index_img/ia_10007.png);
+              background-position: -345px -208px; }
+          main #wb_main .content .goodsdate .gdImg .share {
+            font-size: 12px;
+            color: #477db3;
+            margin-top: 20px;
+            margin-left: 5px; }
+            main #wb_main .content .goodsdate .gdImg .share span {
+              margin-right: 10px; }
+            main #wb_main .content .goodsdate .gdImg .share em {
+              padding-left: 10px;
+              border-left: 1px solid #ccc; }
+        main #wb_main .content .goodsdate .confgt {
+          width: 670px;
+          float: right; }
+          main #wb_main .content .goodsdate .confgt .tit {
+            font-size: 16px;
+            font-weight: 700;
+            color: #333;
+            padding-left: 10px;
+            margin: 20px 0 7px 0;
+            line-height: 22px; }
+          main #wb_main .content .goodsdate .confgt .notice {
+            font-size: 12px;
+            color: #cc9166;
+            font-weight: bold;
+            padding-left: 10px; }
+            main #wb_main .content .goodsdate .confgt .notice span {
+              color: #666;
+              margin-left: 15px; }
+          main #wb_main .content .goodsdate .confgt .goodsid {
+            margin: 24px 0 8px 0;
+            font-size: 12px;
+            color: #666; }
+            main #wb_main .content .goodsdate .confgt .goodsid ul {
+              display: flex;
+              justify-content: space-between;
+              padding: 0 10px; }
+          main #wb_main .content .goodsdate .confgt .goods_price {
+            background: #f1f1f1;
+            padding: 20px 0 30px 0; }
+            main #wb_main .content .goodsdate .confgt .goods_price .f1 {
+              display: flex; }
+              main #wb_main .content .goodsdate .confgt .goods_price .f1 .sp1 {
+                font-size: 12px;
+                color: #e65c5c;
+                font-weight: 700;
+                line-height: 26px;
+                margin-left: 30px; }
+              main #wb_main .content .goodsdate .confgt .goods_price .f1 p {
+                font-weight: bold;
+                font-size: 20px;
+                color: #e65c5c;
+                margin-left: 15px; }
+                main #wb_main .content .goodsdate .confgt .goods_price .f1 p b {
+                  font-size: 12px;
+                  color: #e65c5c; }
+                main #wb_main .content .goodsdate .confgt .goods_price .f1 p em {
+                  font-size: 12px;
+                  color: #666;
+                  margin-left: 5px; }
+              main #wb_main .content .goodsdate .confgt .goods_price .f1 .sp2 {
+                display: flex;
+                color: #999;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 26px;
+                margin-left: 10px; }
+                main #wb_main .content .goodsdate .confgt .goods_price .f1 .sp2 i {
+                  display: block;
+                  width: 16px;
+                  height: 16px;
+                  background: url(../../img/index_img/ia_10007.png);
+                  background-position: -50px -540px;
+                  margin-top: 8px; }
+            main #wb_main .content .goodsdate .confgt .goods_price .f2 {
+              margin-top: 7px; }
+              main #wb_main .content .goodsdate .confgt .goods_price .f2 .sp3 {
+                font-size: 12px;
+                color: #999;
+                margin: 0 10px 0 20px; }
+              main #wb_main .content .goodsdate .confgt .goods_price .f2 b {
+                font-size: 14px;
+                color: #444;
+                margin-right: 5px; }
+              main #wb_main .content .goodsdate .confgt .goods_price .f2 .sp4 {
+                font-size: 12px;
+                color: #444; }
+            main #wb_main .content .goodsdate .confgt .goods_price .f3 {
+              margin-top: 20px; }
+              main #wb_main .content .goodsdate .confgt .goods_price .f3 span {
+                font-size: 12px;
+                color: #e65c5c;
+                font-weight: bold;
+                margin-left: 30px; }
+              main #wb_main .content .goodsdate .confgt .goods_price .f3 .coupon {
+                background: linear-gradient(90deg, #e3b584 0, #cda375 100%);
+                color: #fff;
+                font-size: 12px;
+                padding: 0 10px;
+                margin-left: 10px; }
+              main #wb_main .content .goodsdate .confgt .goods_price .f3 .more {
+                font-size: 12px;
+                color: #999;
+                margin-left: 10px; }
+          main #wb_main .content .goodsdate .confgt .dispatching {
+            padding-left: 30px;
+            display: flex;
+            font-size: 12px;
+            color: #666;
+            margin-top: 20px; }
+            main #wb_main .content .goodsdate .confgt .dispatching p span {
+              color: #cc9166; }
+          main #wb_main .content .goodsdate .confgt .promise {
+            display: flex;
+            font-size: 12px;
+            padding-left: 25px;
+            margin-top: 10px; }
+            main #wb_main .content .goodsdate .confgt .promise .p_txt {
+              padding-top: 10px;
+              color: #999; }
+            main #wb_main .content .goodsdate .confgt .promise ul {
+              margin-left: 10px; }
+              main #wb_main .content .goodsdate .confgt .promise ul li {
+                line-height: 16px; }
+                main #wb_main .content .goodsdate .confgt .promise ul li a {
+                  color: #666;
+                  margin-right: 15px; }
+                  main #wb_main .content .goodsdate .confgt .promise ul li a:hover {
+                    color: #ccaa7a; }
+                  main #wb_main .content .goodsdate .confgt .promise ul li a em {
+                    color: #ccaa7a;
+                    font-size: 42px; }
+          main #wb_main .content .goodsdate .confgt .serve {
+            font-size: 12px;
+            margin-top: 20px;
+            padding-left: 25px; }
+            main #wb_main .content .goodsdate .confgt .serve span {
+              color: #999;
+              margin-right: 15px; }
+            main #wb_main .content .goodsdate .confgt .serve a {
+              color: #ccaa7a;
+              border: 1px solid #ccaa7a;
+              border-radius: 10px;
+              margin-right: 8px;
+              line-height: 18px; }
+              main #wb_main .content .goodsdate .confgt .serve a i {
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                background: url(../../img/index_img/ia_10008.png);
+                background-position: -269px -256px;
+                margin-top: 2px; }
+          main #wb_main .content .goodsdate .confgt .style {
+            font-size: 12px;
+            display: flex;
+            margin-top: 20px;
+            padding-left: 20px; }
+            main #wb_main .content .goodsdate .confgt .style .kunshi {
+              width: 36px;
+              height: 16px;
+              line-height: 16px;
+              color: #999;
+              margin-right: 20px; }
+            main #wb_main .content .goodsdate .confgt .style .select {
+              width: 600px;
+              word-wrap: break-word;
+              margin-top: 10px; }
+              main #wb_main .content .goodsdate .confgt .style .select a {
+                display: inline-block;
+                border: 2px solid #eee;
+                margin-right: 10px;
+                padding: 2px 10px 2px 6px;
+                margin-bottom: 10px;
+                color: #666; }
+                main #wb_main .content .goodsdate .confgt .style .select a:hover {
+                  border: 2px solid #666; }
+          main #wb_main .content .goodsdate .confgt .number {
+            font-size: 12px; }
+            main #wb_main .content .goodsdate .confgt .number span {
+              color: #999;
+              margin: 0 20px; }
+            main #wb_main .content .goodsdate .confgt .number input {
+              width: 21px;
+              height: 21px;
+              border: 1px solid #999;
+              text-align: center; }
+            main #wb_main .content .goodsdate .confgt .number #txt {
+              width: 48px;
+              height: 21px; }
+          main #wb_main .content .goodsdate .confgt .buy {
+            display: flex;
+            margin-top: 24px; }
+            main #wb_main .content .goodsdate .confgt .buy input {
+              font-size: 14px;
+              font-weight: 700;
+              margin-right: 10px;
+              cursor: pointer; }
+            main #wb_main .content .goodsdate .confgt .buy #buyBtn {
+              width: 180px;
+              height: 44px;
+              background: #cc5252;
+              color: #fff;
+              margin-left: 10px; }
+            main #wb_main .content .goodsdate .confgt .buy #addCart {
+              width: 120px;
+              height: 42px;
+              color: #666;
+              border: 1px solid #ccc; }
+            main #wb_main .content .goodsdate .confgt .buy .twoCode {
+              width: 60px;
+              height: 42px;
+              font-size: 14px;
+              position: relative; }
+              main #wb_main .content .goodsdate .confgt .buy .twoCode:hover b {
+                display: block; }
+              main #wb_main .content .goodsdate .confgt .buy .twoCode i {
+                margin: auto;
+                width: 20px;
+                height: 20px;
+                display: block;
+                background: url(../../img/index_img/ia_10008.png);
+                background-position: -443px -367px; }
+              main #wb_main .content .goodsdate .confgt .buy .twoCode b {
+                position: absolute;
+                top: -10px;
+                left: 70px;
+                display: none;
+                width: 145px;
+                height: 145px;
+                padding: 10px;
+                background: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2); }
+                main #wb_main .content .goodsdate .confgt .buy .twoCode b img {
+                  width: 145px;
+                  height: 145px; }
+      main #wb_main .content .adv {
+        margin-top: 50px;
+        cursor: pointer; }
+
+/*# sourceMappingURL=details.css.map */

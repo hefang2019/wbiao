@@ -1,0 +1,60 @@
+@import '../base.css';
+@import '../index/footer.scss';
+@import '../index/header.scss';
+
+header {
+    .search-box {
+        display: none;
+    }
+
+    .second-hand {
+        display: none;
+    }
+}
+
+main {
+    width: 100%;
+
+    .content {
+        width: 1200px;
+        margin: auto;
+
+        .cart_empty {
+            text-align: center;
+
+            i {
+                margin: auto;
+                display: block;
+                width: 82px;
+                height: 84px;
+                background: url(../../img/index_img/ia_10007.png);
+                background-position: 0 -112px;
+            }
+
+            .tx1 {
+                font-size: 18px;
+                color: #666;
+                line-height: 25px;
+            }
+
+            .tx2 {
+                font-size: 14px;
+                color: #999;
+
+                a {
+                    color: #cc5252;
+                    text-decoration: underline;
+                }
+            }
+
+            .cart_btn {
+
+                .goto_shopping {
+                    background: #cc5252;
+                    color: #fff;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
