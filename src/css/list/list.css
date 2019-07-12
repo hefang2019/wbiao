@@ -1,190 +1,1059 @@
 @import url(../base.css);
 header {
   widows: 100%;
-  height: 100%;
-}
-header .top {
-  height: 28px;
-  background: #f4f4f4;
-}
-header .top .top-con {
-  width: 1200px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-header .top .introduce {
-  width: 130px;
-  height: 28px;
-  font-size: 12px;
-  color: #998c59;
-  line-height: 28px;
-}
-header .top .userinfo {
-  width: 500px;
-  height: 28px;
-  display: flex;
-}
-header .top .userinfo .top-login-info {
-  width: 200px;
-  height: 28px;
-}
-header .top .userinfo .top-login-info a {
-  font-size: 12px;
-  line-height: 28px;
-}
-header .top .userinfo .top-login-info .login-btn {
-  color: #999;
-  margin-right: 20px;
-}
-header .top .userinfo .top-login-info .reg-info {
-  color: #ae0f17;
-}
-header .top .userinfo .top-cart {
-  font-size: 12px;
-  line-height: 28px;
-  display: flex;
-}
-header .top .userinfo .top-cart a {
-  padding: 0 11px;
-  color: #999;
-}
-header .top .userinfo .top-cart .customer {
-  width: 70px;
-  height: 26px;
-  position: relative;
-  z-index: 9;
-  border: 1px solid #f4f4f4;
-}
-header .top .userinfo .top-cart .customer:hover {
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  background: #fff;
-}
-header .top .userinfo .top-cart .customer:hover ul {
-  display: block;
-}
-header .top .userinfo .top-cart .customer ul {
-  position: absolute;
-  left: -147px;
-  top: 26px;
-  width: 218px;
-  height: 176px;
-  box-sizing: border-box;
-  padding: 10px;
-  border: 1px solid #ccc;
-  background: white;
-  display: none;
-}
-header .top .userinfo .top-cart .customer ul span {
-  display: block;
-  width: 70px;
-  height: 10px;
-  background: #fff;
-  position: absolute;
-  top: -1px;
-  right: 0;
-}
-header .top .userinfo .top-cart .customer ul li {
-  float: left;
-  width: 50%;
-  text-align: center;
-}
-header .top .userinfo .top-cart .customer ul li:hover a {
-  text-decoration: underline;
-}
-header .top .userinfo .top-cart .customer ul .service-hotline {
-  margin-top: 20px;
-  padding-top: 15px;
+  height: 100%; }
+  header .top {
+    height: 28px;
+    background: #f4f4f4; }
+    header .top .top-con {
+      width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between; }
+    header .top .introduce {
+      width: 130px;
+      height: 28px;
+      font-size: 12px;
+      color: #998c59;
+      line-height: 28px; }
+    header .top .userinfo {
+      width: 500px;
+      height: 28px;
+      display: flex; }
+      header .top .userinfo .top-login-info {
+        width: 200px;
+        height: 28px; }
+        header .top .userinfo .top-login-info a {
+          font-size: 12px;
+          line-height: 28px; }
+        header .top .userinfo .top-login-info .login-btn {
+          color: #999;
+          margin-right: 20px; }
+        header .top .userinfo .top-login-info .reg-info {
+          color: #ae0f17; }
+      header .top .userinfo .top-cart {
+        font-size: 12px;
+        line-height: 28px;
+        display: flex; }
+        header .top .userinfo .top-cart a {
+          padding: 0 11px;
+          color: #999; }
+        header .top .userinfo .top-cart .customer {
+          width: 70px;
+          height: 26px;
+          position: relative;
+          z-index: 9;
+          border: 1px solid #f4f4f4; }
+          header .top .userinfo .top-cart .customer:hover {
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            background: #fff; }
+          header .top .userinfo .top-cart .customer:hover ul {
+            display: block; }
+          header .top .userinfo .top-cart .customer ul {
+            position: absolute;
+            left: -147px;
+            top: 26px;
+            width: 218px;
+            height: 176px;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background: white;
+            display: none; }
+            header .top .userinfo .top-cart .customer ul span {
+              display: block;
+              width: 70px;
+              height: 10px;
+              background: #fff;
+              position: absolute;
+              top: -1px;
+              right: 0; }
+            header .top .userinfo .top-cart .customer ul li {
+              float: left;
+              width: 50%;
+              text-align: center; }
+              header .top .userinfo .top-cart .customer ul li:hover a {
+                text-decoration: underline; }
+            header .top .userinfo .top-cart .customer ul .service-hotline {
+              margin-top: 20px;
+              padding-top: 15px;
+              width: 100%;
+              border-top: 1px solid #8888882b; }
+              header .top .userinfo .top-cart .customer ul .service-hotline p {
+                text-align: center;
+                color: #999; }
+        header .top .userinfo .top-cart span {
+          color: #999; }
+  header #content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 115px;
+    display: flex; }
+    header #content .top-logo {
+      width: 400px;
+      height: 115px;
+      display: flex;
+      line-height: 115px; }
+      header #content .top-logo h1 img {
+        width: 121px;
+        height: 75px; }
+      header #content .top-logo .logo2 img {
+        width: 175px;
+        height: 75px; }
+    header #content .search-box {
+      width: 400px;
+      height: 40px;
+      position: relative;
+      margin-top: 37px;
+      border: 1px solid #888;
+      border-radius: 5px; }
+      header #content .search-box i {
+        width: 21px;
+        height: 22px;
+        position: absolute;
+        top: 13px;
+        left: 8px;
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -379px -420px; }
+      header #content .search-box input {
+        width: 316px;
+        height: 38px;
+        box-sizing: border-box;
+        padding-left: 35px;
+        margin-right: 7px; }
+      header #content .search-box button {
+        width: 76px;
+        height: 40px;
+        background: #b63a3a;
+        text-align: center;
+        margin-left: -4px; }
+    header #content .second-hand {
+      width: 300px;
+      height: 115px;
+      margin-left: 80px; }
+      header #content .second-hand a {
+        display: block; }
+      header #content .second-hand .adj {
+        width: 179px;
+        height: 100px;
+        float: left; }
+        header #content .second-hand .adj img {
+          widows: 179px;
+          height: 115px; }
+      header #content .second-hand .presentation {
+        width: 115px;
+        height: 115px;
+        float: right;
+        box-sizing: border-box;
+        padding: 20px 0 0 20px; }
+        header #content .second-hand .presentation img {
+          width: 85px;
+          height: 88px; }
+
+.navi {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99; }
+
+#navigation {
   width: 100%;
-  border-top: 1px solid #8888882b;
-}
-header .top .userinfo .top-cart .customer ul .service-hotline p {
-  text-align: center;
-  color: #999;
-}
-header .top .userinfo .top-cart span {
-  color: #999;
-}
-header #content {
-  width: 1200px;
-  margin: 0 auto;
-  height: 115px;
-  display: flex;
-}
-header #content .top-logo {
-  width: 400px;
-  height: 115px;
-  display: flex;
-  line-height: 115px;
-}
-header #content .top-logo h1 img {
-  width: 121px;
-  height: 75px;
-}
-header #content .top-logo .logo2 img {
-  width: 175px;
-  height: 75px;
-}
-header #content .search-box {
-  width: 400px;
-  height: 40px;
-  position: relative;
-  margin-top: 37px;
-  border: 1px solid #888;
-  border-radius: 5px;
-}
-header #content .search-box i {
-  width: 21px;
-  height: 22px;
+  height: 48px;
+  background: #fff; }
+  #navigation .conter {
+    width: 1200px;
+    height: 48px;
+    margin: auto; }
+    #navigation .conter .com-menu {
+      float: left;
+      position: relative; }
+      #navigation .conter .com-menu .com-all {
+        display: block;
+        width: 202px;
+        height: 48px;
+        background: #bd4b4b;
+        line-height: 48px;
+        box-sizing: border-box;
+        padding-left: 20px;
+        color: #fff; }
+      #navigation .conter .com-menu i {
+        display: block;
+        width: 28px;
+        height: 22px;
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -416px -420px;
+        position: absolute;
+        top: 15px;
+        right: 15px; }
+    #navigation .conter #list {
+      float: left;
+      padding-left: 10px; }
+      #navigation .conter #list li {
+        float: left;
+        margin-left: 20px;
+        line-height: 48px;
+        position: relative; }
+        #navigation .conter #list li a {
+          color: #333; }
+          #navigation .conter #list li a::after {
+            content: "";
+            width: 0;
+            height: 2px;
+            background-color: red;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%); }
+          #navigation .conter #list li a:hover::after {
+            width: 100%;
+            transition: all 0.6s; }
+    #navigation .conter #ulmenu {
+      width: 202px;
+      height: 460px;
+      position: absolute;
+      top: 191px;
+      z-index: 999;
+      background: rgba(255, 255, 255, 0.9); }
+      #navigation .conter #ulmenu #aul {
+        position: relative; }
+        #navigation .conter #ulmenu #aul li {
+          width: 202px;
+          height: 57.5px;
+          box-sizing: border-box;
+          padding: 5px;
+          border-bottom: 1px solid #99999963;
+          line-height: 52px; }
+          #navigation .conter #ulmenu #aul li:hover {
+            background: #fff; }
+            #navigation .conter #ulmenu #aul li:hover .menuThree {
+              display: block; }
+            #navigation .conter #ulmenu #aul li:hover::after {
+              content: '';
+              display: block;
+              width: 3px;
+              height: 100%;
+              background-color: #ccaa7a;
+              position: absolute;
+              left: 0;
+              top: 0; }
+          #navigation .conter #ulmenu #aul li dl {
+            font-size: 12px; }
+            #navigation .conter #ulmenu #aul li dl dt {
+              display: inline-block;
+              font-weight: bold;
+              float: left;
+              margin-right: 6px; }
+              #navigation .conter #ulmenu #aul li dl dt a {
+                color: #333; }
+            #navigation .conter #ulmenu #aul li dl dd {
+              float: left;
+              margin-right: 5px; }
+              #navigation .conter #ulmenu #aul li dl dd a {
+                color: #666; }
+                #navigation .conter #ulmenu #aul li dl dd a:hover {
+                  text-decoration: underline; }
+          #navigation .conter #ulmenu #aul li .menuThree {
+            width: 998px;
+            height: 460px;
+            background: #fff;
+            position: absolute;
+            top: 0;
+            left: 202px;
+            box-sizing: border-box;
+            padding: 24px;
+            box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.1);
+            display: none; }
+            #navigation .conter #ulmenu #aul li .menuThree .brands {
+              width: 707px;
+              height: 414px;
+              float: left; }
+              #navigation .conter #ulmenu #aul li .menuThree .brands h3 {
+                font-size: 14px;
+                line-height: 14px;
+                padding-left: 10px;
+                font-weight: 700;
+                border-left: 3px solid #666; }
+              #navigation .conter #ulmenu #aul li .menuThree .brands .brandsImg {
+                width: 100%;
+                height: 280px;
+                overflow-y: auto;
+                margin-top: 10px; }
+                #navigation .conter #ulmenu #aul li .menuThree .brands .brandsImg a {
+                  display: block;
+                  width: 137px;
+                  height: 77px;
+                  text-align: center;
+                  border: 1px solid #ccc;
+                  float: left; }
+                  #navigation .conter #ulmenu #aul li .menuThree .brands .brandsImg a img {
+                    width: 120px;
+                    height: 48px;
+                    margin-top: 15px; }
+              #navigation .conter #ulmenu #aul li .menuThree .brands h4 {
+                font-size: 14px;
+                line-height: 14px;
+                padding-left: 10px;
+                font-weight: 700;
+                color: #666;
+                border-left: 3px solid #333;
+                margin-top: 24px; }
+              #navigation .conter #ulmenu #aul li .menuThree .brands .hotWord {
+                width: 100%;
+                height: 60px;
+                text-align: center; }
+                #navigation .conter #ulmenu #aul li .menuThree .brands .hotWord a {
+                  display: inline-block;
+                  height: 36px;
+                  line-height: 36px;
+                  padding: 0 18px;
+                  border: 1px solid #ccc;
+                  border-radius: 100px;
+                  font-size: 12px;
+                  color: #666; }
+            #navigation .conter #ulmenu #aul li .menuThree .p1 {
+              display: inline-block;
+              width: 205px;
+              height: 412px;
+              float: right; }
+
+#side-bar {
+  width: 323px;
+  height: 100%;
   position: absolute;
-  top: 13px;
-  left: 8px;
-  background: url(../../img/index_img/ia_10007.png);
-  background-position: -379px -420px;
-}
-header #content .search-box input {
-  width: 316px;
-  height: 38px;
-  box-sizing: border-box;
-  padding-left: 35px;
-  margin-right: 7px;
-}
-header #content .search-box button {
-  width: 76px;
-  height: 40px;
-  background: #b63a3a;
-  text-align: center;
-  margin-left: -4px;
-}
-header #content .second-hand {
-  width: 300px;
-  height: 115px;
-  margin-left: 80px;
-}
-header #content .second-hand a {
-  display: block;
-}
-header #content .second-hand .adj {
-  width: 179px;
-  height: 100px;
-  float: left;
-}
-header #content .second-hand .adj img {
-  widows: 179px;
-  height: 115px;
-}
-header #content .second-hand .presentation {
-  width: 115px;
-  height: 115px;
-  float: right;
-  box-sizing: border-box;
-  padding: 20px 0 0 20px;
-}
-header #content .second-hand .presentation img {
-  width: 85px;
-  height: 88px;
-}
+  top: 0;
+  right: -279px;
+  z-index: 999; }
+  #side-bar #barUl {
+    width: 44px;
+    height: 220px;
+    float: left;
+    background: #fff;
+    position: fixed;
+    top: 550px;
+    right: 0; }
+    #side-bar #barUl li {
+      width: 100%;
+      height: 20%;
+      box-sizing: border-box;
+      padding-top: 10px;
+      position: relative; }
+      #side-bar #barUl li:hover span {
+        display: block; }
+      #side-bar #barUl li a {
+        display: block;
+        width: 24px;
+        margin: 0 auto;
+        height: 24px; }
+      #side-bar #barUl li:nth-child(1) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -508px -383px; }
+      #side-bar #barUl li:nth-child(2) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -508px -248px; }
+      #side-bar #barUl li:nth-child(3) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -469px -360px; }
+      #side-bar #barUl li:nth-child(4) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -546px -338px; }
+      #side-bar #barUl li:nth-child(5) a {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -546px -367px; }
+      #side-bar #barUl li span {
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        right: 44px;
+        width: 80px;
+        padding: 10px;
+        background: #f1f1f1;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        cursor: pointer; }
+      #side-bar #barUl li:nth-child(4) span {
+        width: 220px;
+        height: 220px;
+        box-sizing: border-box;
+        padding: 35px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        bottom: -44px; }
+  #side-bar .shoppingCart {
+    width: 277px;
+    height: 949px;
+    border-left: 2px solid #000;
+    float: right;
+    background: #f1f1f1;
+    position: fixed;
+    top: 0;
+    right: -277px; }
+    #side-bar .shoppingCart .cart {
+      width: 100%;
+      height: 47px;
+      border-bottom: 1px solid #ccc; }
+      #side-bar .shoppingCart .cart span {
+        font-weight: 500;
+        color: #333;
+        line-height: 48px;
+        margin-left: 20px; }
+      #side-bar .shoppingCart .cart i {
+        float: right;
+        line-height: 48px;
+        margin-right: 20px;
+        cursor: pointer; }
+    #side-bar .shoppingCart .p_text {
+      display: inline-block;
+      width: 100%;
+      height: 32px;
+      background: #fff9ce;
+      font-size: 12px;
+      line-height: 32px; }
+      #side-bar .shoppingCart .p_text a {
+        margin-left: 38px; }
+    #side-bar .shoppingCart .perpleShop {
+      width: 100%;
+      height: 86px;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      text-align: center; }
+      #side-bar .shoppingCart .perpleShop i {
+        display: block;
+        width: 54px;
+        height: 52px;
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: 0 -296px;
+        margin: 0 auto 23px; }
+      #side-bar .shoppingCart .perpleShop p {
+        font-size: 12px;
+        color: #666; }
+
+#navigation .com-menu:hover #ulmenu {
+  display: block; }
+#navigation #ulmenu {
+  width: 202px;
+  height: 460px;
+  position: absolute;
+  top: 191px;
+  display: none;
+  transition: 1s; }
+
+main {
+  width: 100%;
+  height: 100%; }
+  main .wb_main_top {
+    width: 100%;
+    height: 100%; }
+    main .wb_main_top .top_con {
+      width: 1200px;
+      height: 36px;
+      margin: 0 auto;
+      background: #f1f1f1;
+      font-size: 12px;
+      color: #666;
+      line-height: 36px; }
+      main .wb_main_top .top_con .souye {
+        width: 50%;
+        height: 100%;
+        float: left; }
+      main .wb_main_top .top_con .sousuo {
+        width: 50%;
+        height: 100%;
+        float: right;
+        text-align: right; }
+        main .wb_main_top .top_con .sousuo a {
+          margin: 0 8px;
+          color: #666; }
+  main .wb_main_con {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 18px; }
+    main .wb_main_con::after {
+      content: '';
+      display: block;
+      clear: both;
+      overflow: hidden;
+      height: 0;
+      visibility: hidden; }
+    main .wb_main_con .wb_left_area {
+      width: 210px;
+      float: left; }
+      main .wb_main_con .wb_left_area .list_show {
+        width: 210px;
+        height: 400px;
+        position: relative; }
+        main .wb_main_con .wb_left_area .list_show a {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0; }
+          main .wb_main_con .wb_left_area .list_show a img {
+            width: 210px;
+            height: 400px; }
+      main .wb_main_con .wb_left_area #watch_information {
+        width: 208px;
+        height: 301px;
+        border: 1px solid #eee; }
+        main .wb_main_con .wb_left_area #watch_information .tab_info {
+          width: 100%;
+          height: 40px;
+          display: flex; }
+          main .wb_main_con .wb_left_area #watch_information .tab_info li {
+            width: 50%;
+            line-height: 40px;
+            background: #f1f1f1;
+            text-align: center;
+            cursor: pointer;
+            color: #999; }
+          main .wb_main_con .wb_left_area #watch_information .tab_info .active {
+            color: #222; }
+        main .wb_main_con .wb_left_area #watch_information #watch_con {
+          width: 208px;
+          margin-top: 15px;
+          font-size: 12px;
+          line-height: 18px; }
+          main .wb_main_con .wb_left_area #watch_information #watch_con a {
+            width: 208px;
+            display: block;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 5px 0;
+            box-sizing: border-box;
+            padding: 0 5px; }
+            main .wb_main_con .wb_left_area #watch_information #watch_con a:hover {
+              text-decoration: underline; }
+        main .wb_main_con .wb_left_area #watch_information #wb_com {
+          padding-bottom: 20px;
+          border: 1px solid #eee;
+          display: none; }
+          main .wb_main_con .wb_left_area #watch_information #wb_com p {
+            font-size: 12px;
+            color: #666;
+            padding: 0 10px;
+            padding-top: 20px;
+            text-indent: 2em; }
+    main .wb_main_con .wb_right_area {
+      width: 970px;
+      float: right; }
+      main .wb_main_con .wb_right_area .classification {
+        width: 100%;
+        height: 314px;
+        border: 1px solid #ddd;
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 45px;
+        position: relative; }
+        main .wb_main_con .wb_right_area .classification span {
+          font-weight: bold; }
+        main .wb_main_con .wb_right_area .classification h3 {
+          padding-left: 10px;
+          background: #fafafa;
+          line-height: 32px; }
+        main .wb_main_con .wb_right_area .classification .classify {
+          width: 100%;
+          height: 41px;
+          border-bottom: 1px solid #ddd;
+          line-height: 42px;
+          padding-left: 10px; }
+          main .wb_main_con .wb_right_area .classification .classify span {
+            margin-right: 20px; }
+          main .wb_main_con .wb_right_area .classification .classify .a1 {
+            background: #333;
+            color: #fff; }
+          main .wb_main_con .wb_right_area .classification .classify a {
+            margin-right: 10px;
+            color: #666; }
+            main .wb_main_con .wb_right_area .classification .classify a:hover {
+              background: #ccaa7a;
+              color: #fff; }
+        main .wb_main_con .wb_right_area .classification .price {
+          width: 100%;
+          height: 41px;
+          border-bottom: 1px solid #eee;
+          display: flex; }
+          main .wb_main_con .wb_right_area .classification .price span {
+            padding-left: 10px;
+            line-height: 42px;
+            margin-right: 35px; }
+          main .wb_main_con .wb_right_area .classification .price ul {
+            display: flex;
+            padding: 10px 0; }
+            main .wb_main_con .wb_right_area .classification .price ul li {
+              margin-left: 15px;
+              cursor: pointer;
+              text-align: center; }
+              main .wb_main_con .wb_right_area .classification .price ul li:hover {
+                background: #ccaa7a;
+                border-radius: 6px;
+                color: #FFF; }
+          main .wb_main_con .wb_right_area .classification .price .inputBox {
+            margin: 10px 0 0 100px; }
+            main .wb_main_con .wb_right_area .classification .price .inputBox input {
+              width: 46px;
+              height: 19px;
+              border: 1px solid #ccc; }
+        main .wb_main_con .wb_right_area .classification .brandName {
+          width: 100%;
+          height: 118px;
+          display: flex;
+          border-bottom: 1px solid #eee; }
+          main .wb_main_con .wb_right_area .classification .brandName span {
+            display: inline-block;
+            width: 80px;
+            height: 118px;
+            box-sizing: border-box;
+            padding: 15px 0 0 10px;
+            background: #fafafa; }
+          main .wb_main_con .wb_right_area .classification .brandName ul {
+            width: 738px;
+            height: 118px;
+            display: flex;
+            flex-wrap: wrap; }
+            main .wb_main_con .wb_right_area .classification .brandName ul li {
+              width: 16%;
+              height: 29.5px; }
+              main .wb_main_con .wb_right_area .classification .brandName ul li a {
+                display: inline-block;
+                color: #666; }
+                main .wb_main_con .wb_right_area .classification .brandName ul li a:hover {
+                  background: #ccaa7a;
+                  border-radius: 3px;
+                  color: #fff; }
+          main .wb_main_con .wb_right_area .classification .brandName .more {
+            width: 50px;
+            height: 18px;
+            border: 1px solid #999;
+            cursor: pointer;
+            margin-top: 10px;
+            background: #eee; }
+            main .wb_main_con .wb_right_area .classification .brandName .more:hover {
+              border-color: #cc9952; }
+            main .wb_main_con .wb_right_area .classification .brandName .more i {
+              display: block;
+              width: 12px;
+              height: 12px;
+              background: url(../../img/index_img/ia_10008.png);
+              background-position: -390px -89px;
+              float: left;
+              margin: 8px 3px 0 5px; }
+            main .wb_main_con .wb_right_area .classification .brandName .more b {
+              float: left;
+              line-height: 20px; }
+        main .wb_main_con .wb_right_area .classification .sex {
+          width: 100%;
+          height: 40px;
+          border-bottom: 1px solid #eee;
+          display: flex; }
+          main .wb_main_con .wb_right_area .classification .sex span {
+            line-height: 40px;
+            margin: 0 12px;
+            font-weight: bold; }
+          main .wb_main_con .wb_right_area .classification .sex ul {
+            width: 750px;
+            height: 40px;
+            display: flex; }
+            main .wb_main_con .wb_right_area .classification .sex ul li {
+              margin-right: 20px; }
+              main .wb_main_con .wb_right_area .classification .sex ul li a {
+                display: block;
+                margin-top: 12px;
+                color: #666; }
+                main .wb_main_con .wb_right_area .classification .sex ul li a:hover {
+                  background: #ccaa7a;
+                  color: #fff;
+                  border-radius: 3px; }
+          main .wb_main_con .wb_right_area .classification .sex .checkbox1 {
+            width: 50px;
+            height: 18px;
+            display: flex;
+            background: #eee;
+            margin-top: 10px; }
+            main .wb_main_con .wb_right_area .classification .sex .checkbox1 i {
+              margin: 3px;
+              display: block;
+              width: 12px;
+              height: 12px;
+              background: url(../../img/index_img/ia_10008.png);
+              background-position: -280px -87px; }
+        main .wb_main_con .wb_right_area .classification .type {
+          width: 100%;
+          height: 40px;
+          display: flex; }
+          main .wb_main_con .wb_right_area .classification .type span {
+            line-height: 40px;
+            margin: 0 12px;
+            font-weight: bold; }
+          main .wb_main_con .wb_right_area .classification .type ul {
+            width: 750px;
+            height: 40px;
+            display: flex; }
+            main .wb_main_con .wb_right_area .classification .type ul li {
+              margin-right: 20px; }
+              main .wb_main_con .wb_right_area .classification .type ul li a {
+                display: block;
+                margin-top: 12px;
+                color: #666; }
+                main .wb_main_con .wb_right_area .classification .type ul li a:hover {
+                  background: #ccaa7a;
+                  color: #fff;
+                  border-radius: 3px; }
+          main .wb_main_con .wb_right_area .classification .type .checkbox2 {
+            width: 50px;
+            height: 18px;
+            display: flex;
+            background: #eee;
+            margin-top: 10px; }
+            main .wb_main_con .wb_right_area .classification .type .checkbox2 i {
+              margin: 3px;
+              display: block;
+              width: 12px;
+              height: 12px;
+              background: url(../../img/index_img/ia_10008.png);
+              background-position: -280px -87px; }
+        main .wb_main_con .wb_right_area .classification .options {
+          width: 252px;
+          height: 24px;
+          border: 1px solid #ccc;
+          border-top-color: #fff;
+          position: absolute;
+          left: 50%;
+          bottom: -26px;
+          transform: translate(-50%);
+          background: #fff;
+          display: flex;
+          cursor: pointer; }
+          main .wb_main_con .wb_right_area .classification .options span {
+            font-size: 12px;
+            color: #666;
+            margin-left: 5px;
+            line-height: 24px; }
+          main .wb_main_con .wb_right_area .classification .options i {
+            display: block;
+            width: 12px;
+            height: 12px;
+            background: url(../../img/index_img/ia_10008.png);
+            background-position: -390px -89px;
+            margin-top: 10px; }
+      main .wb_main_con .wb_right_area .goodslist .screen {
+        height: 36px;
+        border-bottom: 1px solid #ccc;
+        display: flex; }
+        main .wb_main_con .wb_right_area .goodslist .screen ul {
+          width: 320px;
+          height: 36px;
+          display: flex; }
+          main .wb_main_con .wb_right_area .goodslist .screen ul li {
+            width: 25%;
+            text-align: center; }
+            main .wb_main_con .wb_right_area .goodslist .screen ul li a {
+              font-size: 12px;
+              position: relative;
+              color: #666;
+              margin-top: 10px;
+              background: #fff; }
+              main .wb_main_con .wb_right_area .goodslist .screen ul li a:hover {
+                color: #cc9952; }
+                main .wb_main_con .wb_right_area .goodslist .screen ul li a:hover::after {
+                  display: block; }
+              main .wb_main_con .wb_right_area .goodslist .screen ul li a::after {
+                content: "";
+                display: none;
+                width: 100%;
+                height: 3px;
+                background-color: #cc9952;
+                position: absolute;
+                left: 50%;
+                bottom: -10px;
+                transform: translate(-50%); }
+        main .wb_main_con .wb_right_area .goodslist .screen .select {
+          width: 399px;
+          line-height: 16px;
+          font-size: 12px;
+          color: #666;
+          padding-top: 10px; }
+          main .wb_main_con .wb_right_area .goodslist .screen .select a {
+            margin-left: 10px; }
+      main .wb_main_con .wb_right_area .goodslist .goods .goods_info {
+        display: flex;
+        flex-wrap: wrap; }
+        main .wb_main_con .wb_right_area .goodslist .goods .goods_info li {
+          width: 24%;
+          height: 450px;
+          margin: 10px 8.5px 10px 0; }
+          main .wb_main_con .wb_right_area .goodslist .goods .goods_info li a {
+            display: inline-block;
+            width: 220px;
+            height: 275px;
+            overflow: hidden;
+            margin: auto; }
+            main .wb_main_con .wb_right_area .goodslist .goods .goods_info li a img {
+              width: auto;
+              height: 275px;
+              margin-left: -26px; }
+          main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt {
+            height: 175px;
+            position: relative;
+            box-sizing: border-box;
+            padding: 0 15px; }
+            main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .p1_txt {
+              font-size: 12px;
+              margin-bottom: 5px; }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .p1_txt em {
+                color: #fff;
+                background: linear-gradient(270deg, #ff8080 0, #e65c5c 100%); }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .p1_txt .installment {
+                font-size: 18px;
+                color: #e65c5c;
+                font-weight: bold;
+                margin-right: 16px; }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .p1_txt .price {
+                font-size: 14px;
+                color: #666;
+                font-weight: 400; }
+            main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .tit {
+              display: -webkit-box;
+              width: 100%;
+              height: 36px;
+              font-size: 12px;
+              line-height: 18px;
+              color: #666;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              word-break: break-all; }
+            main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .sales {
+              font-size: 12px;
+              margin-top: 10px; }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .sales span {
+                color: #e65c5c; }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .sales em {
+                color: #666; }
+            main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .shopName {
+              font-size: 12px;
+              color: #666;
+              margin-top: 5px;
+              display: inline-block;
+              height: 18px; }
+            main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .free {
+              color: #cc9952;
+              font-size: 12px; }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .free span {
+                padding: 0 7px;
+                border: 1px solid #cc9952; }
+            main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .collect {
+              display: none;
+              padding-top: 20px;
+              position: absolute;
+              bottom: 27px;
+              left: 0;
+              background: #fff; }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .collect::after {
+                content: "";
+                clear: both;
+                overflow: hidden;
+                height: 0;
+                visibility: hidden;
+                display: block; }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .collect a {
+                display: block;
+                font-size: 12px;
+                width: 100px;
+                height: 28px;
+                border: 1px solid #eee;
+                text-align: center;
+                line-height: 28px; }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .collect .add_keep {
+                color: #333;
+                float: left; }
+              main .wb_main_con .wb_right_area .goodslist .goods .goods_info li .goods_txt .collect .add_cart {
+                color: #e65c5c;
+                float: left; }
+          main .wb_main_con .wb_right_area .goodslist .goods .goods_info li:hover {
+            box-shadow: 0px 1px 19px 1px #ccc; }
+            main .wb_main_con .wb_right_area .goodslist .goods .goods_info li:hover .collect {
+              display: block; }
+      main .wb_main_con .wb_right_area .goodslist .goods #pages {
+        width: 100%;
+        height: 30px;
+        text-align: center; }
+        main .wb_main_con .wb_right_area .goodslist .goods #pages span {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          line-height: 30px;
+          font-size: 14px;
+          font-weight: 700;
+          border-radius: 50%;
+          margin: 5px;
+          background: #999;
+          cursor: pointer; }
+        main .wb_main_con .wb_right_area .goodslist .goods #pages .active {
+          background: #cc9952; }
+
+footer {
+  width: 100%;
+  height: 100%; }
+  footer .guarantee {
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+    background: #fff; }
+    footer .guarantee li {
+      width: 20%;
+      height: 70px;
+      float: left;
+      box-sizing: border-box;
+      padding-top: 20px;
+      text-align: center; }
+      footer .guarantee li i {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        vertical-align: middle; }
+      footer .guarantee li span {
+        font-size: 14px;
+        color: #666;
+        display: inline-block;
+        vertical-align: middle; }
+      footer .guarantee li:nth-child(1) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -409px -357px; }
+      footer .guarantee li:nth-child(2) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: 0 -414px; }
+      footer .guarantee li:nth-child(3) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -361px -357px; }
+      footer .guarantee li:nth-child(4) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -313px -357px; }
+      footer .guarantee li:nth-child(5) i {
+        background: url(../../img/index_img/ia_10007.png);
+        background-position: -265px -357px; }
+  footer .afterService {
+    width: 100%;
+    height: 441px;
+    background: #333; }
+    footer .afterService .content {
+      width: 1200px;
+      height: 100%;
+      margin: auto; }
+      footer .afterService .content .serviceChannel {
+        width: 100%;
+        height: 240px;
+        box-sizing: border-box;
+        padding-top: 45px; }
+        footer .afterService .content .serviceChannel .supportPhone {
+          width: 200px;
+          height: 100%;
+          float: left; }
+          footer .afterService .content .serviceChannel .supportPhone .p1 {
+            color: #ccaa7a;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 12px;
+            margin-bottom: 20px; }
+          footer .afterService .content .serviceChannel .supportPhone b {
+            font-size: 18px;
+            color: #ccaa7a; }
+          footer .afterService .content .serviceChannel .supportPhone .p2 {
+            font-size: 12px;
+            color: #999; }
+          footer .afterService .content .serviceChannel .supportPhone span {
+            display: block;
+            width: 132px;
+            height: 36px;
+            border: 1px solid #999;
+            border-radius: 20px;
+            color: #999;
+            text-align: center;
+            margin-top: 18px;
+            line-height: 36px;
+            cursor: pointer; }
+            footer .afterService .content .serviceChannel .supportPhone span:hover {
+              color: #fff;
+              background: #ccaa7a; }
+        footer .afterService .content .serviceChannel .guide {
+          width: 625px;
+          height: 100%;
+          float: left;
+          box-sizing: border-box;
+          padding-left: 60px; }
+          footer .afterService .content .serviceChannel .guide dl {
+            width: 20%;
+            height: 100%;
+            font-size: 12px;
+            text-align: center;
+            float: left; }
+            footer .afterService .content .serviceChannel .guide dl dt {
+              font-weight: bold;
+              color: #ccc;
+              margin-bottom: 10px; }
+            footer .afterService .content .serviceChannel .guide dl dd {
+              color: #999;
+              line-height: 28px; }
+          footer .afterService .content .serviceChannel .guide :nth-child(5) dt {
+            color: #ccaa7a; }
+          footer .afterService .content .serviceChannel .guide :nth-child(5) :nth-child(3) {
+            color: #ccaa7a; }
+        footer .afterService .content .serviceChannel .twoDimension {
+          width: 372px;
+          height: 100%;
+          float: right; }
+          footer .afterService .content .serviceChannel .twoDimension a {
+            display: inline-block;
+            margin-left: 150px; }
+      footer .afterService .content .blogroll {
+        width: 100%;
+        height: 201px; }
+        footer .afterService .content .blogroll .externalLinks {
+          font-size: 12px;
+          text-align: center; }
+          footer .afterService .content .blogroll .externalLinks a {
+            color: #999;
+            display: inline-block;
+            margin: 40px 10px; }
+            footer .afterService .content .blogroll .externalLinks a:hover {
+              color: #fff; }
+          footer .afterService .content .blogroll .externalLinks span {
+            color: #999; }
+        footer .afterService .content .blogroll .wb_records {
+          color: #999;
+          font-size: 12px;
+          text-align: center; }
+          footer .afterService .content .blogroll .wb_records p {
+            line-height: 28px; }
+            footer .afterService .content .blogroll .wb_records p a {
+              color: #666; }
+
+#wb_filing {
+  width: 100%;
+  height: 152px;
+  background: #fff; }
+  #wb_filing .content {
+    width: 1200px;
+    height: 100%;
+    margin: auto; }
+    #wb_filing .content .credential {
+      text-align: center; }
+      #wb_filing .content .credential a {
+        display: inline-block;
+        margin: 20px; }
+        #wb_filing .content .credential a img {
+          width: 92px;
+          height: 38px; }
+    #wb_filing .content .wb_links {
+      text-align: center; }
+      #wb_filing .content .wb_links a {
+        display: inline-block;
+        margin: 10px;
+        color: #666;
+        font-size: 12px; }
 
 /*# sourceMappingURL=list.css.map */

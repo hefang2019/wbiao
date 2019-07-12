@@ -1,29 +1,45 @@
 (() => {
-    $('header').load('html/component/header.html')
+    $('header').load('html/component/header.html', function () {
+        let cart = document.getElementById('cart');
+        let bar = document.getElementById('side-bar');
+        cart.onclick = function () {
+            console.log(666)
+        }
+    })
     $('#watch_info').load('html/index/wristwatch.info.html');
     $('#shareMise').load('html/index/share.html');
     $('#shareMise').load('html/index/share.html');
     $('footer').load('html/index/footer.html');
     $('#side-bar').load('html/component/bar.html', () => {
         //侧栏
-        let bar = document.getElementById('side-bar');
-        let on_off = bar.querySelector('.cart i');
-        let shopcart = bar.querySelector('.shoppingCart');
-        let barUl = document.getElementById('barUl');
-        let alis = barUl.querySelectorAll('li');
-
-        on_off.onclick = function () {
-            shopcart.style.right = -279 + 'px';
-            bar.style.right = -279 + 'px';
-            barUl.style.right = 0;
-        }
-        for (let i = 0; i < alis.length; i++) {
-            alis[i].onclick = function () {
-                shopcart.style.right = 0;
-                bar.style.right = 0;
-                barUl.style.right = 279 + 'px';
-            }
-        }
+        $('#soTop').on('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "auto"
+            });
+        })
+        $('#openCart').on('click', function () {
+            $('.shoppingCart').css('right', '0');
+            $('#side-bar').css('right', '0');
+            $('#barUl').css('right', '277px');
+        })
+        $('#close').on('click', function () {
+            $('.shoppingCart').css('right', '-279px');
+            $('#side-bar').css('right', '-279px');
+            $('#barUl').css('right', '0');
+        })
+        $('#collect').on('click', function () {
+            $('.shoppingCart').css('right', '0');
+            $('#side-bar').css('right', '0');
+            $('#barUl').css('right', '277px');
+            $('#cartCon').html('我的收藏');
+        })
+        $('#pastRecords').on('click', function () {
+            $('.shoppingCart').css('right', '0');
+            $('#side-bar').css('right', '0');
+            $('#barUl').css('right', '277px');
+            $('#cartCon').html('浏览足迹');
+        })
 
     });
     $('#navigation').load('html/component/nav.html', () => {
